@@ -9,9 +9,34 @@ import numpy as np
 
 from models.ratings import get_attack, get_defense
 
-HOME_ADVANTAGE = 1.15
+HOME_ADVANTAGE = 1.04
 ALTITUDE_THRESHOLDS = [(2000, 0.88), (1500, 0.94)]
 RHO = -0.1  # Dixon-Coles correction strength
+
+# Per-match rating jitter: Normal(1.0, σ) multiplied into each team's attack+defense.
+# Captures heat exhaustion, individual errors, tactical surprises, referee variance.
+JITTER_SIGMA_BASE = 0.10
+
+# Hot outdoor venues get extra jitter — fatigue and mistakes amplified.
+# Indoor/domed stadiums (NRG Houston, MB Atlanta, BC Place Vancouver) are climate-controlled.
+# AT&T/Arlington, MB/Atlanta, NRG/Houston are fully climate-controlled — no heat penalty.
+# BC Place/Vancouver and SoFi/Inglewood have retractable roofs but no full AC.
+_HOT_VENUES = {
+    "Miami Gardens":  0.05,   # Hard Rock Stadium — open-air, Florida humidity
+    "Kansas City":    0.04,   # Arrowhead — open-air, midwest summer heat
+    "East Rutherford":0.03,   # MetLife — open-air, NJ summer
+    "Inglewood":      0.02,   # SoFi — partial roof, no AC
+    "Santa Clara":    0.02,   # Levi's — open-air, Bay Area afternoon heat
+    "Foxborough":     0.02,   # Gillette — open-air, New England
+    "Toronto":        0.02,   # BMO Field — open-air
+    "Guadalupe":      0.03,   # Estadio BBVA — open-air, NL Mexico heat
+    "Mexico City":    0.02,   # Azteca — open-air (altitude already modeled separately)
+    "Vancouver":      0.01,   # BC Place — retractable roof, no AC, but mild climate
+}
+
+
+def _heat_sigma(city: str) -> float:
+    return _HOT_VENUES.get(city, 0.0)
 
 
 def _altitude_factor(altitude_m: float) -> float:
@@ -51,6 +76,11 @@ def expected_goals(
     return lh, la
 
 
+def _sample_jitter(sigma: float, rng: np.random.Generator) -> float:
+    """Sample a positive day-factor multiplier. Clipped so it can't go below 0.5."""
+    return float(np.clip(rng.normal(1.0, sigma), 0.5, 1.5))
+
+
 def simulate_match(
     home_team: dict,
     away_team: dict,
@@ -62,6 +92,13 @@ def simulate_match(
 
     if rng is None:
         rng = np.random.default_rng()
+
+    # Per-match jitter: each team gets an independent random day-factor.
+    # Hot outdoor venues add extra variance on top of the base sigma.
+    city = fixture.get("city", "")
+    sigma = JITTER_SIGMA_BASE + _heat_sigma(city)
+    lh *= _sample_jitter(sigma, rng)
+    la *= _sample_jitter(sigma, rng)
 
     # Dixon-Coles: sample via rejection on low-score grid
     max_goals = 10

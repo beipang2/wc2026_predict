@@ -173,6 +173,93 @@ def show_wildcards_only(wc: dict) -> None:
 DEFAULT_OUTPUT = RESULTS_DIR / "bracket.txt"
 DEFAULT_KNOCKOUT = RESULTS_DIR / "knockout.json"
 
+ROUND_PROB = {"r32": "p_r32", "r16": "p_r16", "qf": "p_qf", "sf": "p_sf", "final": "p_final"}
+
+
+def show_predicted_bracket(ko: dict) -> None:
+    """Show bracket round-by-round with most likely winner of each match."""
+    teams = ko["teams"]
+    bracket = ko["bracket"]
+    r32 = {m["id"]: m for m in bracket["round_of_32"]}
+    r16 = {m["id"]: m for m in bracket["round_of_16"]}
+
+    def prob(code: str, round_key: str) -> float:
+        return teams[code][ROUND_PROB[round_key]]
+
+    def pick(a: str, b: str, round_key: str) -> tuple[str, str, float, float]:
+        pa, pb = prob(a, round_key), prob(b, round_key)
+        total = pa + pb
+        pct_a = pa / total * 100 if total else 50
+        pct_b = pb / total * 100 if total else 50
+        winner = a if pa >= pb else b
+        return winner, (b if winner == a else a), (pct_a if winner == a else pct_b), (pct_b if winner == a else pct_a)
+
+    def name(code: str) -> str:
+        return teams[code]["name"]
+
+    console.print(f"\n[bold cyan]══ PREDICTED BRACKET  ({ko['simulations']:,} simulations) ══[/bold cyan]")
+    console.print("[dim]Winner shown for each match based on simulation probabilities.[/dim]\n")
+
+    # R32
+    console.print("[bold white]── ROUND OF 32 ──[/bold white]")
+    r32_winners: dict[int, str] = {}
+    for mid, m in sorted(r32.items()):
+        w, l, pw, pl = pick(m["home"], m["away"], "r32")
+        r32_winners[mid] = w
+        console.print(
+            f"  #{mid}  {name(m['home']):<24} vs  {name(m['away']):<24}"
+            f"  →  [bold green]{name(w):<24}[/bold green] [dim]{pw:.0f}%[/dim]"
+        )
+
+    # R16
+    console.print(f"\n[bold white]── ROUND OF 16 ──[/bold white]")
+    r16_winners: dict[int, str] = {}
+    for rid, r in sorted(r16.items()):
+        a, b = r32_winners[r["slot_a"]], r32_winners[r["slot_b"]]
+        w, l, pw, pl = pick(a, b, "r16")
+        r16_winners[rid] = w
+        console.print(
+            f"  #{rid}  {name(a):<24} vs  {name(b):<24}"
+            f"  →  [bold green]{name(w):<24}[/bold green] [dim]{pw:.0f}%[/dim]"
+        )
+
+    # QF
+    console.print(f"\n[bold white]── QUARTER-FINALS ──[/bold white]")
+    # QF97=(89,90) vs QF98=(93,94) → SF1;  QF99=(91,92) vs QF100=(95,96) → SF2
+    qf_tree = [(89, 90), (93, 94), (91, 92), (95, 96)]
+    qf_winners: list[str] = []
+    for r16a, r16b in qf_tree:
+        a, b = r16_winners[r16a], r16_winners[r16b]
+        w, l, pw, pl = pick(a, b, "qf")
+        qf_winners.append(w)
+        console.print(
+            f"  {name(a):<24} vs  {name(b):<24}"
+            f"  →  [bold green]{name(w):<24}[/bold green] [dim]{pw:.0f}%[/dim]"
+        )
+
+    # SF
+    console.print(f"\n[bold white]── SEMI-FINALS ──[/bold white]")
+    sf_tree = [(0, 1), (2, 3)]
+    sf_winners: list[str] = []
+    for ia, ib in sf_tree:
+        a, b = qf_winners[ia], qf_winners[ib]
+        w, l, pw, pl = pick(a, b, "sf")
+        sf_winners.append(w)
+        console.print(
+            f"  {name(a):<24} vs  {name(b):<24}"
+            f"  →  [bold green]{name(w):<24}[/bold green] [dim]{pw:.0f}%[/dim]"
+        )
+
+    # Final
+    console.print(f"\n[bold white]── FINAL ──[/bold white]")
+    a, b = sf_winners[0], sf_winners[1]
+    w, l, pw, pl = pick(a, b, "final")
+    console.print(
+        f"  {name(a):<24} vs  {name(b):<24}"
+        f"  →  [bold yellow]{name(w):<24}[/bold yellow] [dim]{pw:.0f}%[/dim]"
+    )
+    console.print(f"\n  [bold yellow]🏆  CHAMPION: {name(w)}[/bold yellow]\n")
+
 
 def show_knockout(ko: dict) -> None:
     """Display knockout stage probabilities per team."""
@@ -226,9 +313,9 @@ def show_knockout(ko: dict) -> None:
 @click.option("--knockout-file", default=str(DEFAULT_KNOCKOUT), show_default=True,
               help="Path to knockout results JSON.")
 @click.option("--mode", default="all",
-              type=click.Choice(["all", "bracket", "groups", "wildcards", "knockout"]),
+              type=click.Choice(["all", "bracket", "groups", "wildcards", "knockout", "picks"]),
               show_default=True,
-              help="all = bracket+knockout; bracket = group/wildcard view; knockout = KO only.")
+              help="all = bracket+knockout; bracket = group/wildcard; knockout = KO odds; picks = predicted bracket.")
 @click.option("--output", default=str(DEFAULT_OUTPUT), show_default=True,
               help="Path to save plain-text output.")
 def main(groups_file: str, wildcards_file: str, knockout_file: str, mode: str, output: str) -> None:
@@ -248,6 +335,9 @@ def main(groups_file: str, wildcards_file: str, knockout_file: str, mode: str, o
         if mode in ("all", "knockout"):
             ko = _load_json(Path(knockout_file))
             show_knockout(ko)
+        if mode in ("all", "picks"):
+            ko = _load_json(Path(knockout_file))
+            show_predicted_bracket(ko)
         if mode == "groups":
             gs = _load_json(Path(groups_file))
             show_groups_only(gs)

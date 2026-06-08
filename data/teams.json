@@ -7,7 +7,7 @@
     "attack": 1.6,
     "defense": 0.85,
     "notes": "Co-host. Won 2025 Nations League + Gold Cup.",
-    "form": 0.99
+    "form": 1.0
   },
   "KOR": {
     "name": "South Korea",
@@ -16,8 +16,8 @@
     "elo": 1720,
     "attack": 1.4,
     "defense": 1.0,
-    "notes": "Only unbeaten AFC qualifier. Poor pre-tournament form.",
-    "form": 1.08
+    "notes": "Only unbeaten AFC qualifier. Poor pre-tournament form. Lost 0-5 Brazil, 0-1 Austria, 0-4 Ivory Coast. Wins only vs minnows.",
+    "form": 0.92
   },
   "CZE": {
     "name": "Czechia",
@@ -76,8 +76,8 @@
     "elo": 1625,
     "attack": 1.18,
     "defense": 1.12,
-    "notes": "First ever World Cup appearance. Dangerous attacking options.",
-    "form": 0.95
+    "notes": "First ever World Cup appearance. Qualified via penalties (Wales, Italy). Dzeko 40 at Schalke. Drew Panama 1-1, N.Macedonia 0-0.",
+    "form": 0.92
   },
   "BRA": {
     "name": "Brazil",
@@ -87,16 +87,16 @@
     "attack": 1.75,
     "defense": 0.82,
     "notes": "5x champions. Hunting to end long title drought.",
-    "form": 0.95
+    "form": 0.98
   },
   "MAR": {
     "name": "Morocco",
     "confederation": "CAF",
     "fifa_rank": 14,
     "elo": 1760,
-    "attack": 1.45,
+    "attack": 1.35,
     "defense": 0.93,
-    "notes": "2022 semifinalists. Excellent defensive record.",
+    "notes": "2022 semifinalists. AFCON 2025 champions but not convincing. Ezzalzouli knee (2-3wks), Mazraoui shoulder uncertain. Drew Norway 1-1.",
     "form": 1.08
   },
   "SCO": {
@@ -124,10 +124,10 @@
     "confederation": "CONCACAF",
     "fifa_rank": 14,
     "elo": 1765,
-    "attack": 1.45,
+    "attack": 1.38,
     "defense": 0.93,
-    "notes": "Co-host. Copa 2024 group exit. Lost to Belgium 5-2, Portugal 2-0, Germany 2-1. Pochettino new coach.",
-    "form": 0.92
+    "notes": "Co-host. Lost Belgium 2-5, Portugal 0-2, Germany 1-2. Beat Senegal 3-2, Uruguay 5-1. Pochettino still building. Adams/Wright injured.",
+    "form": 0.90
   },
   "PAR": {
     "name": "Paraguay",
@@ -146,8 +146,8 @@
     "elo": 1698,
     "attack": 1.35,
     "defense": 1.02,
-    "notes": "2022 QF run boosted confidence. Socceroos improving.",
-    "form": 0.98
+    "notes": "2022 QF. Beat Japan 1-0, Saudi Arabia 2-1 in qualifying. McGree (key CM) out torn hamstring. Lost 0-1 Mexico, drew 1-1 Switzerland June 2026.",
+    "form": 0.93
   },
   "TUR": {
     "name": "Turkey",
@@ -167,7 +167,7 @@
     "attack": 1.75,
     "defense": 0.84,
     "notes": "EURO 2024 QF hosts. Hunger to end major trophy drought.",
-    "form": 1.08
+    "form": 1.09
   },
   "ECU": {
     "name": "Ecuador",
@@ -184,10 +184,10 @@
     "confederation": "CAF",
     "fifa_rank": 48,
     "elo": 1680,
-    "attack": 1.3,
+    "attack": 1.35,
     "defense": 1.05,
-    "notes": "AFCON 2023 champions. Talented generation led by Zaha era successors.",
-    "form": 1.0
+    "notes": "AFCON 2023 champions. Beat France 2-1 friendly. Unbeaten qualifying, 0 goals conceded. Lost AFCON 2025 title in QF.",
+    "form": 1.1
   },
   "CUW": {
     "name": "Curacao",
@@ -206,8 +206,8 @@
     "elo": 1875,
     "attack": 1.55,
     "defense": 0.86,
-    "notes": "EURO 2024 SF. Xavi Simons ACL out. Depay 1 goal in 13 matches. Lost to Algeria at home.",
-    "form": 0.83
+    "notes": "EURO 2024 SF. Xavi Simons ACL out. De Ligt/de Vrij/Schouten also out. Beat Norway 2-1, drew Ecuador 1-1, lost 0-1 Algeria.",
+    "form": 0.91
   },
   "JPN": {
     "name": "Japan",
@@ -287,7 +287,7 @@
     "attack": 1.8,
     "defense": 0.8,
     "notes": "EURO 2024 champions. Yamal era in full swing.",
-    "form": 0.94
+    "form": 0.93
   },
   "URU": {
     "name": "Uruguay",
@@ -326,8 +326,8 @@
     "elo": 1985,
     "attack": 1.85,
     "defense": 0.78,
-    "notes": "5 PSG CL winners in squad. Dembele Ballon d'Or, Doue CL Young Player. Saliba doubtful (back) is the only real concern.",
-    "form": 1.04
+    "notes": "5 PSG CL winners in squad. Dembele Ballon d'Or, Doue CL Young Player. Saliba doubtful (back). Lost 1-2 to Ivory Coast (their R32 opponent).",
+    "form": 1.02
   },
   "SEN": {
     "name": "Senegal",
@@ -337,7 +337,7 @@
     "attack": 1.45,
     "defense": 0.95,
     "notes": "AFCON champions. Mane-generation core still competitive.",
-    "form": 0.97
+    "form": 0.96
   },
   "NOR": {
     "name": "Norway",
@@ -347,7 +347,7 @@
     "attack": 1.65,
     "defense": 0.9,
     "notes": "Haaland-powered. First WC since 1998. High goal threat.",
-    "form": 1.1
+    "form": 1.08
   },
   "IRQ": {
     "name": "Iraq",
@@ -386,7 +386,7 @@
     "elo": 1658,
     "attack": 1.25,
     "defense": 1.07,
-    "notes": "Experienced CAF qualifier. First WC since 2014.",
+    "notes": "Experienced CAF qualifier. First WC since 2014. Beat Netherlands 1-0.",
     "form": 1.0
   },
   "JOR": {
@@ -414,10 +414,10 @@
     "confederation": "CONMEBOL",
     "fifa_rank": 11,
     "elo": 1800,
-    "attack": 1.55,
+    "attack": 1.45,
     "defense": 0.91,
-    "notes": "Copa America 2024 runners-up. Beat Brazil + Argentina in qualifying. Diaz at Bayern peak.",
-    "form": 1.07
+    "notes": "Copa America 2024 runners-up. Beat Brazil + Argentina in qualifying. Diaz at Bayern peak. 4231 limits attack routes vs low-block; Stanišić knows Díaz well. Lost 1-2 vs Croatia, 1-3 vs France in June 2026 friendlies.",
+    "form": 1.02
   },
   "UZB": {
     "name": "Uzbekistan",
@@ -426,8 +426,8 @@
     "elo": 1552,
     "attack": 1.02,
     "defense": 1.2,
-    "notes": "Beat Netherlands 5-3 pre-WC. Khusanov (Man City) elite. Fayzullaev 22 ascending. Cannavaro coach (Oct 2025).",
-    "form": 1.05
+    "notes": "Beat Netherlands 5-3 pre-WC. Khusanov (Man City) elite. Fayzullaev 22 ascending. Cannavaro coach (Oct 2025). Lost to Canada 0-2.",
+    "form": 1.01
   },
   "COD": {
     "name": "DR Congo",
@@ -457,7 +457,7 @@
     "attack": 1.5,
     "defense": 0.92,
     "notes": "2022 3rd place. Modric's last dance. Battle-hardened.",
-    "form": 0.97
+    "form": 1.0
   },
   "GHA": {
     "name": "Ghana",
@@ -467,7 +467,7 @@
     "attack": 1.15,
     "defense": 1.13,
     "notes": "Queiroz coach (Apr 2026, 8wks before tournament). Kudus out (surgery). Missed AFCON 2025. Semenyo/Williams talent floor.",
-    "form": 0.90
+    "form": 0.9
   },
   "PAN": {
     "name": "Panama",

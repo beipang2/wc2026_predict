@@ -1,0 +1,389 @@
+{
+  "simulations": 100000,
+  "teams": {
+    "KOR": {
+      "name": "South Korea",
+      "p_3rd": 24.5,
+      "p_wildcard_given_3rd": 74.2,
+      "p_wildcard": 18.2,
+      "xpts_when_3rd": 3.35,
+      "xgd_when_3rd": -0.75
+    },
+    "SUI": {
+      "name": "Switzerland",
+      "p_3rd": 17.6,
+      "p_wildcard_given_3rd": 76.4,
+      "p_wildcard": 13.4,
+      "xpts_when_3rd": 3.36,
+      "xgd_when_3rd": -0.54
+    },
+    "MAR": {
+      "name": "Morocco",
+      "p_3rd": 20.1,
+      "p_wildcard_given_3rd": 75.8,
+      "p_wildcard": 15.2,
+      "xpts_when_3rd": 3.35,
+      "xgd_when_3rd": -0.65
+    },
+    "PAR": {
+      "name": "Paraguay",
+      "p_3rd": 27.6,
+      "p_wildcard_given_3rd": 64.6,
+      "p_wildcard": 17.8,
+      "xpts_when_3rd": 3.17,
+      "xgd_when_3rd": -1.37
+    },
+    "CUW": {
+      "name": "Curacao",
+      "p_3rd": 18.3,
+      "p_wildcard_given_3rd": 43.7,
+      "p_wildcard": 8.0,
+      "xpts_when_3rd": 2.89,
+      "xgd_when_3rd": -2.55
+    },
+    "SWE": {
+      "name": "Sweden",
+      "p_3rd": 26.4,
+      "p_wildcard_given_3rd": 70.1,
+      "p_wildcard": 18.5,
+      "xpts_when_3rd": 3.24,
+      "xgd_when_3rd": -1.07
+    },
+    "EGY": {
+      "name": "Egypt",
+      "p_3rd": 27.4,
+      "p_wildcard_given_3rd": 70.2,
+      "p_wildcard": 19.2,
+      "xpts_when_3rd": 3.25,
+      "xgd_when_3rd": -1.02
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "p_3rd": 35.5,
+      "p_wildcard_given_3rd": 62.1,
+      "p_wildcard": 22.0,
+      "xpts_when_3rd": 3.15,
+      "xgd_when_3rd": -1.44
+    },
+    "FRA": {
+      "name": "France",
+      "p_3rd": 16.0,
+      "p_wildcard_given_3rd": 78.9,
+      "p_wildcard": 12.6,
+      "xpts_when_3rd": 3.41,
+      "xgd_when_3rd": -0.41
+    },
+    "JOR": {
+      "name": "Jordan",
+      "p_3rd": 28.2,
+      "p_wildcard_given_3rd": 58.6,
+      "p_wildcard": 16.6,
+      "xpts_when_3rd": 3.09,
+      "xgd_when_3rd": -1.69
+    },
+    "COL": {
+      "name": "Colombia",
+      "p_3rd": 18.1,
+      "p_wildcard_given_3rd": 74.3,
+      "p_wildcard": 13.4,
+      "xpts_when_3rd": 3.32,
+      "xgd_when_3rd": -0.66
+    },
+    "PAN": {
+      "name": "Panama",
+      "p_3rd": 36.8,
+      "p_wildcard_given_3rd": 60.4,
+      "p_wildcard": 22.2,
+      "xpts_when_3rd": 3.11,
+      "xgd_when_3rd": -1.54
+    },
+    "RSA": {
+      "name": "South Africa",
+      "p_3rd": 23.2,
+      "p_wildcard_given_3rd": 52.4,
+      "p_wildcard": 12.2,
+      "xpts_when_3rd": 3.02,
+      "xgd_when_3rd": -2.13
+    },
+    "BIH": {
+      "name": "Bosnia & Herzegovina",
+      "p_3rd": 37.0,
+      "p_wildcard_given_3rd": 61.4,
+      "p_wildcard": 22.7,
+      "xpts_when_3rd": 3.14,
+      "xgd_when_3rd": -1.53
+    },
+    "HAI": {
+      "name": "Haiti",
+      "p_3rd": 26.7,
+      "p_wildcard_given_3rd": 54.9,
+      "p_wildcard": 14.7,
+      "xpts_when_3rd": 3.04,
+      "xgd_when_3rd": -1.82
+    },
+    "USA": {
+      "name": "United States",
+      "p_3rd": 22.0,
+      "p_wildcard_given_3rd": 75.4,
+      "p_wildcard": 16.5,
+      "xpts_when_3rd": 3.33,
+      "xgd_when_3rd": -0.77
+    },
+    "ESP": {
+      "name": "Spain",
+      "p_3rd": 15.9,
+      "p_wildcard_given_3rd": 78.2,
+      "p_wildcard": 12.4,
+      "xpts_when_3rd": 3.38,
+      "xgd_when_3rd": -0.48
+    },
+    "AUT": {
+      "name": "Austria",
+      "p_3rd": 25.3,
+      "p_wildcard_given_3rd": 71.0,
+      "p_wildcard": 17.9,
+      "xpts_when_3rd": 3.27,
+      "xgd_when_3rd": -0.96
+    },
+    "POR": {
+      "name": "Portugal",
+      "p_3rd": 13.9,
+      "p_wildcard_given_3rd": 78.6,
+      "p_wildcard": 10.9,
+      "xpts_when_3rd": 3.39,
+      "xgd_when_3rd": -0.42
+    },
+    "GHA": {
+      "name": "Ghana",
+      "p_3rd": 29.2,
+      "p_wildcard_given_3rd": 54.4,
+      "p_wildcard": 15.9,
+      "xpts_when_3rd": 3.04,
+      "xgd_when_3rd": -1.95
+    },
+    "SCO": {
+      "name": "Scotland",
+      "p_3rd": 35.2,
+      "p_wildcard_given_3rd": 64.4,
+      "p_wildcard": 22.7,
+      "xpts_when_3rd": 3.18,
+      "xgd_when_3rd": -1.33
+    },
+    "AUS": {
+      "name": "Australia",
+      "p_3rd": 27.6,
+      "p_wildcard_given_3rd": 69.3,
+      "p_wildcard": 19.1,
+      "xpts_when_3rd": 3.24,
+      "xgd_when_3rd": -1.11
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "p_3rd": 39.2,
+      "p_wildcard_given_3rd": 65.8,
+      "p_wildcard": 25.8,
+      "xpts_when_3rd": 3.22,
+      "xgd_when_3rd": -1.22
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "p_3rd": 27.0,
+      "p_wildcard_given_3rd": 68.2,
+      "p_wildcard": 18.4,
+      "xpts_when_3rd": 3.22,
+      "xgd_when_3rd": -1.17
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "p_3rd": 27.0,
+      "p_wildcard_given_3rd": 62.3,
+      "p_wildcard": 16.8,
+      "xpts_when_3rd": 3.14,
+      "xgd_when_3rd": -1.4
+    },
+    "KSA": {
+      "name": "Saudi Arabia",
+      "p_3rd": 28.9,
+      "p_wildcard_given_3rd": 56.2,
+      "p_wildcard": 16.3,
+      "xpts_when_3rd": 3.05,
+      "xgd_when_3rd": -1.85
+    },
+    "ARG": {
+      "name": "Argentina",
+      "p_3rd": 14.3,
+      "p_wildcard_given_3rd": 80.4,
+      "p_wildcard": 11.5,
+      "xpts_when_3rd": 3.42,
+      "xgd_when_3rd": -0.41
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "p_3rd": 31.3,
+      "p_wildcard_given_3rd": 54.3,
+      "p_wildcard": 17.0,
+      "xpts_when_3rd": 3.04,
+      "xgd_when_3rd": -1.86
+    },
+    "MEX": {
+      "name": "Mexico",
+      "p_3rd": 16.3,
+      "p_wildcard_given_3rd": 80.7,
+      "p_wildcard": 13.1,
+      "xpts_when_3rd": 3.43,
+      "xgd_when_3rd": -0.26
+    },
+    "JPN": {
+      "name": "Japan",
+      "p_3rd": 26.1,
+      "p_wildcard_given_3rd": 70.8,
+      "p_wildcard": 18.5,
+      "xpts_when_3rd": 3.25,
+      "xgd_when_3rd": -1.04
+    },
+    "IRN": {
+      "name": "Iran",
+      "p_3rd": 25.8,
+      "p_wildcard_given_3rd": 71.3,
+      "p_wildcard": 18.4,
+      "xpts_when_3rd": 3.27,
+      "xgd_when_3rd": -0.94
+    },
+    "ENG": {
+      "name": "England",
+      "p_3rd": 14.0,
+      "p_wildcard_given_3rd": 79.8,
+      "p_wildcard": 11.2,
+      "xpts_when_3rd": 3.42,
+      "xgd_when_3rd": -0.38
+    },
+    "CZE": {
+      "name": "Czechia",
+      "p_3rd": 36.0,
+      "p_wildcard_given_3rd": 65.9,
+      "p_wildcard": 23.7,
+      "xpts_when_3rd": 3.2,
+      "xgd_when_3rd": -1.15
+    },
+    "GER": {
+      "name": "Germany",
+      "p_3rd": 11.0,
+      "p_wildcard_given_3rd": 84.8,
+      "p_wildcard": 9.3,
+      "xpts_when_3rd": 3.56,
+      "xgd_when_3rd": 0.12
+    },
+    "SEN": {
+      "name": "Senegal",
+      "p_3rd": 36.8,
+      "p_wildcard_given_3rd": 64.6,
+      "p_wildcard": 23.7,
+      "xpts_when_3rd": 3.18,
+      "xgd_when_3rd": -1.42
+    },
+    "COD": {
+      "name": "DR Congo",
+      "p_3rd": 36.7,
+      "p_wildcard_given_3rd": 58.1,
+      "p_wildcard": 21.3,
+      "xpts_when_3rd": 3.09,
+      "xgd_when_3rd": -1.7
+    },
+    "QAT": {
+      "name": "Qatar",
+      "p_3rd": 28.1,
+      "p_wildcard_given_3rd": 55.1,
+      "p_wildcard": 15.5,
+      "xpts_when_3rd": 3.03,
+      "xgd_when_3rd": -1.95
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "p_3rd": 31.5,
+      "p_wildcard_given_3rd": 69.8,
+      "p_wildcard": 22.0,
+      "xpts_when_3rd": 3.28,
+      "xgd_when_3rd": -0.94
+    },
+    "BRA": {
+      "name": "Brazil",
+      "p_3rd": 18.1,
+      "p_wildcard_given_3rd": 77.2,
+      "p_wildcard": 13.9,
+      "xpts_when_3rd": 3.38,
+      "xgd_when_3rd": -0.55
+    },
+    "BEL": {
+      "name": "Belgium",
+      "p_3rd": 19.7,
+      "p_wildcard_given_3rd": 76.7,
+      "p_wildcard": 15.1,
+      "xpts_when_3rd": 3.36,
+      "xgd_when_3rd": -0.64
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "p_3rd": 25.9,
+      "p_wildcard_given_3rd": 53.7,
+      "p_wildcard": 13.9,
+      "xpts_when_3rd": 3.02,
+      "xgd_when_3rd": -2.04
+    },
+    "URU": {
+      "name": "Uruguay",
+      "p_3rd": 19.7,
+      "p_wildcard_given_3rd": 75.1,
+      "p_wildcard": 14.8,
+      "xpts_when_3rd": 3.33,
+      "xgd_when_3rd": -0.67
+    },
+    "TUR": {
+      "name": "Turkey",
+      "p_3rd": 22.9,
+      "p_wildcard_given_3rd": 73.4,
+      "p_wildcard": 16.8,
+      "xpts_when_3rd": 3.3,
+      "xgd_when_3rd": -0.81
+    },
+    "NED": {
+      "name": "Netherlands",
+      "p_3rd": 20.5,
+      "p_wildcard_given_3rd": 75.8,
+      "p_wildcard": 15.5,
+      "xpts_when_3rd": 3.33,
+      "xgd_when_3rd": -0.72
+    },
+    "ALG": {
+      "name": "Algeria",
+      "p_3rd": 32.2,
+      "p_wildcard_given_3rd": 64.5,
+      "p_wildcard": 20.7,
+      "xpts_when_3rd": 3.17,
+      "xgd_when_3rd": -1.32
+    },
+    "CRO": {
+      "name": "Croatia",
+      "p_3rd": 20.1,
+      "p_wildcard_given_3rd": 74.3,
+      "p_wildcard": 14.9,
+      "xpts_when_3rd": 3.32,
+      "xgd_when_3rd": -0.69
+    },
+    "NOR": {
+      "name": "Norway",
+      "p_3rd": 21.3,
+      "p_wildcard_given_3rd": 75.2,
+      "p_wildcard": 16.0,
+      "xpts_when_3rd": 3.34,
+      "xgd_when_3rd": -0.67
+    },
+    "CAN": {
+      "name": "Canada",
+      "p_3rd": 17.3,
+      "p_wildcard_given_3rd": 76.9,
+      "p_wildcard": 13.3,
+      "xpts_when_3rd": 3.37,
+      "xgd_when_3rd": -0.53
+    }
+  }
+}

@@ -1,47 +1,47 @@
 {
   "A": {
     "group": "A",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "MEX": {
         "name": "Mexico",
-        "p_1st": 53.7,
-        "p_2nd": 26.9,
-        "p_3rd": 14.1,
-        "p_4th": 5.3,
-        "p_advance": 80.6,
-        "xpts": 5.95,
-        "xgd": 2.84
+        "p_1st": 49.4,
+        "p_2nd": 29.3,
+        "p_3rd": 16.2,
+        "p_4th": 5.1,
+        "p_advance": 78.7,
+        "xpts": 5.82,
+        "xgd": 2.68
       },
       "KOR": {
         "name": "South Korea",
-        "p_1st": 20.8,
-        "p_2nd": 30.4,
-        "p_3rd": 30.0,
-        "p_4th": 18.8,
-        "p_advance": 51.2,
-        "xpts": 4.18,
-        "xgd": 0.05
+        "p_1st": 30.9,
+        "p_2nd": 34.6,
+        "p_3rd": 24.5,
+        "p_4th": 10.0,
+        "p_advance": 65.5,
+        "xpts": 4.97,
+        "xgd": 1.28
       },
       "CZE": {
         "name": "Czechia",
-        "p_1st": 21.0,
-        "p_2nd": 30.2,
-        "p_3rd": 30.8,
-        "p_4th": 18.0,
-        "p_advance": 51.2,
-        "xpts": 4.23,
-        "xgd": 0.17
+        "p_1st": 16.6,
+        "p_2nd": 27.0,
+        "p_3rd": 35.9,
+        "p_4th": 20.5,
+        "p_advance": 43.6,
+        "xpts": 3.91,
+        "xgd": -0.29
       },
       "RSA": {
         "name": "South Africa",
-        "p_1st": 4.5,
-        "p_2nd": 12.5,
-        "p_3rd": 25.1,
-        "p_4th": 57.9,
-        "p_advance": 17.0,
-        "xpts": 2.21,
-        "xgd": -3.06
+        "p_1st": 3.1,
+        "p_2nd": 9.2,
+        "p_3rd": 23.4,
+        "p_4th": 64.3,
+        "p_advance": 12.3,
+        "xpts": 1.91,
+        "xgd": -3.67
       }
     },
     "fixtures": {
@@ -49,83 +49,83 @@
         "home": "MEX",
         "away": "RSA",
         "most_likely_score": "2-0",
-        "frequency": 13.1
+        "frequency": 13.8
       },
       "KORvCZE": {
         "home": "KOR",
         "away": "CZE",
         "most_likely_score": "1-1",
-        "frequency": 12.0
+        "frequency": 12.1
       },
       "CZEvRSA": {
         "home": "CZE",
         "away": "RSA",
         "most_likely_score": "1-1",
-        "frequency": 11.5
+        "frequency": 12.0
       },
       "MEXvKOR": {
         "home": "MEX",
         "away": "KOR",
         "most_likely_score": "1-1",
-        "frequency": 10.8
+        "frequency": 11.4
       },
       "RSAvKOR": {
         "home": "RSA",
         "away": "KOR",
-        "most_likely_score": "1-1",
-        "frequency": 11.8
+        "most_likely_score": "0-2",
+        "frequency": 11.9
       },
       "CZEvMEX": {
         "home": "CZE",
         "away": "MEX",
         "most_likely_score": "1-1",
-        "frequency": 12.2
+        "frequency": 12.7
       }
     }
   },
   "B": {
     "group": "B",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "CAN": {
         "name": "Canada",
-        "p_1st": 27.4,
-        "p_2nd": 32.4,
-        "p_3rd": 25.4,
-        "p_4th": 14.9,
-        "p_advance": 59.7,
-        "xpts": 4.61,
-        "xgd": 0.75
+        "p_1st": 42.5,
+        "p_2nd": 33.3,
+        "p_3rd": 17.2,
+        "p_4th": 7.0,
+        "p_advance": 75.8,
+        "xpts": 5.53,
+        "xgd": 2.23
       },
       "SUI": {
         "name": "Switzerland",
-        "p_1st": 51.4,
-        "p_2nd": 27.5,
-        "p_3rd": 14.1,
-        "p_4th": 7.0,
-        "p_advance": 78.9,
-        "xpts": 5.8,
-        "xgd": 2.54
+        "p_1st": 41.8,
+        "p_2nd": 33.4,
+        "p_3rd": 17.4,
+        "p_4th": 7.4,
+        "p_advance": 75.2,
+        "xpts": 5.51,
+        "xgd": 2.1
       },
       "QAT": {
         "name": "Qatar",
-        "p_1st": 6.9,
-        "p_2nd": 16.1,
-        "p_3rd": 28.9,
-        "p_4th": 48.1,
-        "p_advance": 23.0,
-        "xpts": 2.62,
-        "xgd": -2.33
+        "p_1st": 4.6,
+        "p_2nd": 11.9,
+        "p_3rd": 28.2,
+        "p_4th": 55.2,
+        "p_advance": 16.5,
+        "xpts": 2.25,
+        "xgd": -3.04
       },
       "BIH": {
         "name": "Bosnia & Herzegovina",
-        "p_1st": 14.3,
-        "p_2nd": 24.1,
-        "p_3rd": 31.6,
-        "p_4th": 30.0,
-        "p_advance": 38.4,
-        "xpts": 3.51,
-        "xgd": -0.95
+        "p_1st": 11.1,
+        "p_2nd": 21.4,
+        "p_3rd": 37.2,
+        "p_4th": 30.4,
+        "p_advance": 32.4,
+        "xpts": 3.32,
+        "xgd": -1.29
       }
     },
     "fixtures": {
@@ -133,83 +133,83 @@
         "home": "CAN",
         "away": "BIH",
         "most_likely_score": "1-1",
-        "frequency": 12.5
+        "frequency": 10.3
       },
       "QATvSUI": {
         "home": "QAT",
         "away": "SUI",
         "most_likely_score": "0-2",
-        "frequency": 11.3
+        "frequency": 11.9
       },
       "SUIvBIH": {
         "home": "SUI",
         "away": "BIH",
         "most_likely_score": "1-1",
-        "frequency": 10.6
+        "frequency": 11.2
       },
       "CANvQAT": {
         "home": "CAN",
         "away": "QAT",
-        "most_likely_score": "1-1",
-        "frequency": 11.0
+        "most_likely_score": "2-0",
+        "frequency": 11.4
       },
       "SUIvCAN": {
         "home": "SUI",
         "away": "CAN",
         "most_likely_score": "1-1",
-        "frequency": 11.6
+        "frequency": 12.4
       },
       "BIHvQAT": {
         "home": "BIH",
         "away": "QAT",
         "most_likely_score": "1-1",
-        "frequency": 12.7
+        "frequency": 12.8
       }
     }
   },
   "C": {
     "group": "C",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "BRA": {
         "name": "Brazil",
-        "p_1st": 47.8,
-        "p_2nd": 29.7,
-        "p_3rd": 15.4,
-        "p_4th": 7.1,
-        "p_advance": 77.5,
-        "xpts": 5.68,
-        "xgd": 2.39
+        "p_1st": 43.1,
+        "p_2nd": 31.2,
+        "p_3rd": 17.8,
+        "p_4th": 7.9,
+        "p_advance": 74.3,
+        "xpts": 5.47,
+        "xgd": 2.04
       },
       "MAR": {
         "name": "Morocco",
-        "p_1st": 32.3,
-        "p_2nd": 32.6,
-        "p_3rd": 23.4,
-        "p_4th": 11.8,
-        "p_advance": 64.9,
-        "xpts": 4.9,
-        "xgd": 1.18
+        "p_1st": 37.7,
+        "p_2nd": 32.7,
+        "p_3rd": 20.2,
+        "p_4th": 9.4,
+        "p_advance": 70.4,
+        "xpts": 5.23,
+        "xgd": 1.66
       },
       "SCO": {
         "name": "Scotland",
-        "p_1st": 14.2,
-        "p_2nd": 25.1,
-        "p_3rd": 34.0,
-        "p_4th": 26.7,
-        "p_advance": 39.3,
-        "xpts": 3.64,
+        "p_1st": 14.3,
+        "p_2nd": 24.0,
+        "p_3rd": 35.3,
+        "p_4th": 26.4,
+        "p_advance": 38.3,
+        "xpts": 3.61,
         "xgd": -0.79
       },
       "HAI": {
         "name": "Haiti",
-        "p_1st": 5.8,
-        "p_2nd": 12.5,
-        "p_3rd": 27.3,
-        "p_4th": 54.4,
-        "p_advance": 18.3,
-        "xpts": 2.33,
-        "xgd": -2.78
+        "p_1st": 4.9,
+        "p_2nd": 12.1,
+        "p_3rd": 26.7,
+        "p_4th": 56.3,
+        "p_advance": 17.0,
+        "xpts": 2.26,
+        "xgd": -2.91
       }
     },
     "fixtures": {
@@ -229,71 +229,71 @@
         "home": "SCO",
         "away": "MAR",
         "most_likely_score": "1-1",
-        "frequency": 11.8
+        "frequency": 11.7
       },
       "BRAvHAI": {
         "home": "BRA",
         "away": "HAI",
         "most_likely_score": "2-0",
-        "frequency": 12.5
+        "frequency": 12.2
       },
       "MARvHAI": {
         "home": "MAR",
         "away": "HAI",
-        "most_likely_score": "1-0",
-        "frequency": 12.5
+        "most_likely_score": "2-0",
+        "frequency": 12.2
       },
       "SCOvBRA": {
         "home": "SCO",
         "away": "BRA",
         "most_likely_score": "1-1",
-        "frequency": 10.9
+        "frequency": 11.2
       }
     }
   },
   "D": {
     "group": "D",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "USA": {
         "name": "United States",
-        "p_1st": 26.9,
-        "p_2nd": 25.9,
-        "p_3rd": 24.9,
-        "p_4th": 22.4,
-        "p_advance": 52.8,
-        "xpts": 4.25,
-        "xgd": 0.24
+        "p_1st": 34.9,
+        "p_2nd": 27.9,
+        "p_3rd": 21.9,
+        "p_4th": 15.4,
+        "p_advance": 62.8,
+        "xpts": 4.81,
+        "xgd": 1.04
       },
       "PAR": {
         "name": "Paraguay",
-        "p_1st": 17.9,
-        "p_2nd": 23.2,
-        "p_3rd": 26.3,
-        "p_4th": 32.6,
-        "p_advance": 41.1,
-        "xpts": 3.61,
-        "xgd": -0.74
+        "p_1st": 12.5,
+        "p_2nd": 19.0,
+        "p_3rd": 27.5,
+        "p_4th": 41.0,
+        "p_advance": 31.5,
+        "xpts": 3.1,
+        "xgd": -1.51
       },
       "AUS": {
         "name": "Australia",
-        "p_1st": 23.3,
-        "p_2nd": 24.0,
-        "p_3rd": 26.0,
-        "p_4th": 26.8,
-        "p_advance": 47.2,
-        "xpts": 3.99,
-        "xgd": -0.21
+        "p_1st": 20.6,
+        "p_2nd": 25.1,
+        "p_3rd": 27.5,
+        "p_4th": 26.7,
+        "p_advance": 45.7,
+        "xpts": 3.89,
+        "xgd": -0.34
       },
       "TUR": {
         "name": "Turkey",
-        "p_1st": 31.9,
-        "p_2nd": 27.0,
-        "p_3rd": 22.8,
-        "p_4th": 18.3,
-        "p_advance": 58.9,
-        "xpts": 4.59,
-        "xgd": 0.72
+        "p_1st": 32.0,
+        "p_2nd": 28.0,
+        "p_3rd": 23.1,
+        "p_4th": 16.9,
+        "p_advance": 60.0,
+        "xpts": 4.67,
+        "xgd": 0.81
       }
     },
     "fixtures": {
@@ -301,83 +301,83 @@
         "home": "USA",
         "away": "PAR",
         "most_likely_score": "1-1",
-        "frequency": 12.3
+        "frequency": 11.3
       },
       "AUSvTUR": {
         "home": "AUS",
         "away": "TUR",
         "most_likely_score": "1-1",
-        "frequency": 12.2
+        "frequency": 12.3
       },
       "USAvAUS": {
         "home": "USA",
         "away": "AUS",
         "most_likely_score": "1-1",
-        "frequency": 12.3
+        "frequency": 11.2
       },
       "TURvPAR": {
         "home": "TUR",
         "away": "PAR",
         "most_likely_score": "1-1",
-        "frequency": 11.9
+        "frequency": 12.2
       },
       "TURvUSA": {
         "home": "TUR",
         "away": "USA",
         "most_likely_score": "1-1",
-        "frequency": 12.7
+        "frequency": 12.4
       },
       "PARvAUS": {
         "home": "PAR",
         "away": "AUS",
         "most_likely_score": "1-1",
-        "frequency": 11.7
+        "frequency": 12.5
       }
     }
   },
   "E": {
     "group": "E",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "GER": {
         "name": "Germany",
-        "p_1st": 57.9,
-        "p_2nd": 26.6,
-        "p_3rd": 13.5,
+        "p_1st": 61.7,
+        "p_2nd": 25.4,
+        "p_3rd": 10.9,
         "p_4th": 2.0,
-        "p_advance": 84.5,
-        "xpts": 6.37,
-        "xgd": 3.78
+        "p_advance": 87.2,
+        "xpts": 6.53,
+        "xgd": 3.99
       },
       "ECU": {
         "name": "Ecuador",
-        "p_1st": 19.2,
-        "p_2nd": 32.7,
-        "p_3rd": 37.7,
-        "p_4th": 10.4,
-        "p_advance": 51.8,
-        "xpts": 4.45,
-        "xgd": 0.47
+        "p_1st": 21.9,
+        "p_2nd": 37.6,
+        "p_3rd": 31.2,
+        "p_4th": 9.3,
+        "p_advance": 59.5,
+        "xpts": 4.7,
+        "xgd": 0.86
       },
       "CIV": {
         "name": "Ivory Coast",
-        "p_1st": 22.2,
-        "p_2nd": 36.2,
-        "p_3rd": 32.9,
-        "p_4th": 8.8,
-        "p_advance": 58.4,
-        "xpts": 4.72,
-        "xgd": 0.9
+        "p_1st": 15.3,
+        "p_2nd": 31.5,
+        "p_3rd": 39.4,
+        "p_4th": 13.8,
+        "p_advance": 46.8,
+        "xpts": 4.14,
+        "xgd": -0.05
       },
       "CUW": {
         "name": "Curacao",
-        "p_1st": 0.8,
-        "p_2nd": 4.5,
-        "p_3rd": 15.9,
-        "p_4th": 78.8,
-        "p_advance": 5.3,
-        "xpts": 1.26,
-        "xgd": -5.15
+        "p_1st": 1.1,
+        "p_2nd": 5.4,
+        "p_3rd": 18.5,
+        "p_4th": 74.9,
+        "p_advance": 6.5,
+        "xpts": 1.39,
+        "xgd": -4.8
       }
     },
     "fixtures": {
@@ -385,83 +385,83 @@
         "home": "GER",
         "away": "CUW",
         "most_likely_score": "2-0",
-        "frequency": 13.8
+        "frequency": 14.0
       },
       "CIVvECU": {
         "home": "CIV",
         "away": "ECU",
         "most_likely_score": "1-1",
-        "frequency": 11.6
+        "frequency": 12.2
       },
       "GERvCIV": {
         "home": "GER",
         "away": "CIV",
         "most_likely_score": "1-1",
-        "frequency": 10.3
+        "frequency": 10.2
       },
       "ECUvCUW": {
         "home": "ECU",
         "away": "CUW",
         "most_likely_score": "2-0",
-        "frequency": 13.7
+        "frequency": 13.8
       },
       "CUWvCIV": {
         "home": "CUW",
         "away": "CIV",
         "most_likely_score": "0-2",
-        "frequency": 14.3
+        "frequency": 13.2
       },
       "ECUvGER": {
         "home": "ECU",
         "away": "GER",
         "most_likely_score": "1-1",
-        "frequency": 10.5
+        "frequency": 10.9
       }
     }
   },
   "F": {
     "group": "F",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "NED": {
         "name": "Netherlands",
-        "p_1st": 35.6,
-        "p_2nd": 27.6,
-        "p_3rd": 20.7,
-        "p_4th": 16.1,
-        "p_advance": 63.1,
-        "xpts": 4.82,
-        "xgd": 1.07
+        "p_1st": 37.9,
+        "p_2nd": 27.0,
+        "p_3rd": 20.5,
+        "p_4th": 14.7,
+        "p_advance": 64.8,
+        "xpts": 4.94,
+        "xgd": 1.21
       },
       "JPN": {
         "name": "Japan",
-        "p_1st": 26.7,
-        "p_2nd": 27.3,
-        "p_3rd": 24.0,
-        "p_4th": 22.0,
-        "p_advance": 54.0,
-        "xpts": 4.29,
-        "xgd": 0.28
+        "p_1st": 22.5,
+        "p_2nd": 25.3,
+        "p_3rd": 26.3,
+        "p_4th": 25.9,
+        "p_advance": 47.8,
+        "xpts": 3.99,
+        "xgd": -0.18
       },
       "TUN": {
         "name": "Tunisia",
-        "p_1st": 17.3,
-        "p_2nd": 21.3,
-        "p_3rd": 28.2,
-        "p_4th": 33.1,
-        "p_advance": 38.7,
-        "xpts": 3.52,
-        "xgd": -0.88
+        "p_1st": 17.7,
+        "p_2nd": 22.8,
+        "p_3rd": 26.9,
+        "p_4th": 32.5,
+        "p_advance": 40.6,
+        "xpts": 3.6,
+        "xgd": -0.76
       },
       "SWE": {
         "name": "Sweden",
-        "p_1st": 20.3,
-        "p_2nd": 23.8,
-        "p_3rd": 27.1,
-        "p_4th": 28.7,
-        "p_advance": 44.2,
-        "xpts": 3.79,
-        "xgd": -0.47
+        "p_1st": 21.8,
+        "p_2nd": 24.9,
+        "p_3rd": 26.3,
+        "p_4th": 26.9,
+        "p_advance": 46.8,
+        "xpts": 3.93,
+        "xgd": -0.27
       }
     },
     "fixtures": {
@@ -469,83 +469,83 @@
         "home": "NED",
         "away": "JPN",
         "most_likely_score": "1-1",
-        "frequency": 13.0
+        "frequency": 11.8
       },
       "SWEvTUN": {
         "home": "SWE",
         "away": "TUN",
         "most_likely_score": "1-1",
-        "frequency": 12.2
+        "frequency": 12.4
       },
       "NEDvSWE": {
         "home": "NED",
         "away": "SWE",
         "most_likely_score": "1-1",
-        "frequency": 12.9
+        "frequency": 12.0
       },
       "TUNvJPN": {
         "home": "TUN",
         "away": "JPN",
         "most_likely_score": "1-1",
-        "frequency": 12.9
+        "frequency": 12.5
       },
       "TUNvNED": {
         "home": "TUN",
         "away": "NED",
         "most_likely_score": "1-1",
-        "frequency": 11.8
+        "frequency": 11.9
       },
       "JPNvSWE": {
         "home": "JPN",
         "away": "SWE",
         "most_likely_score": "1-1",
-        "frequency": 12.3
+        "frequency": 12.4
       }
     }
   },
   "G": {
     "group": "G",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "BEL": {
         "name": "Belgium",
-        "p_1st": 41.1,
+        "p_1st": 40.7,
         "p_2nd": 28.0,
-        "p_3rd": 19.0,
-        "p_4th": 11.9,
-        "p_advance": 69.1,
-        "xpts": 5.17,
-        "xgd": 1.53
+        "p_3rd": 19.7,
+        "p_4th": 11.6,
+        "p_advance": 68.7,
+        "xpts": 5.15,
+        "xgd": 1.51
       },
       "IRN": {
         "name": "Iran",
         "p_1st": 26.3,
-        "p_2nd": 28.2,
-        "p_3rd": 26.1,
-        "p_4th": 19.5,
-        "p_advance": 54.4,
+        "p_2nd": 28.3,
+        "p_3rd": 25.7,
+        "p_4th": 19.7,
+        "p_advance": 54.6,
         "xpts": 4.35,
         "xgd": 0.34
       },
       "EGY": {
         "name": "Egypt",
-        "p_1st": 23.1,
-        "p_2nd": 27.1,
-        "p_3rd": 27.6,
-        "p_4th": 22.2,
-        "p_advance": 50.1,
+        "p_1st": 23.4,
+        "p_2nd": 26.7,
+        "p_3rd": 27.3,
+        "p_4th": 22.6,
+        "p_advance": 50.0,
         "xpts": 4.13,
-        "xgd": 0.03
+        "xgd": 0.02
       },
       "NZL": {
         "name": "New Zealand",
         "p_1st": 9.6,
-        "p_2nd": 16.7,
-        "p_3rd": 27.3,
-        "p_4th": 46.4,
-        "p_advance": 26.3,
-        "xpts": 2.81,
-        "xgd": -1.9
+        "p_2nd": 17.1,
+        "p_3rd": 27.2,
+        "p_4th": 46.0,
+        "p_advance": 26.7,
+        "xpts": 2.82,
+        "xgd": -1.87
       }
     },
     "fixtures": {
@@ -553,83 +553,83 @@
         "home": "BEL",
         "away": "EGY",
         "most_likely_score": "1-1",
-        "frequency": 11.4
+        "frequency": 12.2
       },
       "IRNvNZL": {
         "home": "IRN",
         "away": "NZL",
         "most_likely_score": "1-1",
-        "frequency": 13.2
+        "frequency": 12.5
       },
       "BELvIRN": {
         "home": "BEL",
         "away": "IRN",
         "most_likely_score": "1-1",
-        "frequency": 12.2
+        "frequency": 12.4
       },
       "NZLvEGY": {
         "home": "NZL",
         "away": "EGY",
         "most_likely_score": "1-1",
-        "frequency": 11.8
+        "frequency": 12.6
       },
       "NZLvBEL": {
         "home": "NZL",
         "away": "BEL",
         "most_likely_score": "1-1",
-        "frequency": 11.4
+        "frequency": 11.6
       },
       "EGYvIRN": {
         "home": "EGY",
         "away": "IRN",
         "most_likely_score": "1-1",
-        "frequency": 11.9
+        "frequency": 12.7
       }
     }
   },
   "H": {
     "group": "H",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "ESP": {
         "name": "Spain",
-        "p_1st": 45.5,
-        "p_2nd": 30.4,
-        "p_3rd": 16.9,
-        "p_4th": 7.2,
-        "p_advance": 75.9,
-        "xpts": 5.59,
-        "xgd": 2.24
+        "p_1st": 46.1,
+        "p_2nd": 31.0,
+        "p_3rd": 16.1,
+        "p_4th": 6.8,
+        "p_advance": 77.1,
+        "xpts": 5.65,
+        "xgd": 2.34
       },
       "URU": {
         "name": "Uruguay",
-        "p_1st": 37.1,
-        "p_2nd": 33.4,
-        "p_3rd": 19.8,
-        "p_4th": 9.7,
-        "p_advance": 70.5,
-        "xpts": 5.19,
-        "xgd": 1.64
+        "p_1st": 37.0,
+        "p_2nd": 33.6,
+        "p_3rd": 19.9,
+        "p_4th": 9.6,
+        "p_advance": 70.6,
+        "xpts": 5.22,
+        "xgd": 1.66
       },
       "KSA": {
         "name": "Saudi Arabia",
-        "p_1st": 5.6,
-        "p_2nd": 13.9,
+        "p_1st": 5.7,
+        "p_2nd": 13.6,
         "p_3rd": 28.9,
-        "p_4th": 51.6,
-        "p_advance": 19.5,
-        "xpts": 2.44,
-        "xgd": -2.7
+        "p_4th": 51.8,
+        "p_advance": 19.3,
+        "xpts": 2.42,
+        "xgd": -2.73
       },
       "CPV": {
         "name": "Cape Verde",
-        "p_1st": 11.8,
-        "p_2nd": 22.3,
-        "p_3rd": 34.4,
-        "p_4th": 31.5,
-        "p_advance": 34.1,
-        "xpts": 3.34,
-        "xgd": -1.19
+        "p_1st": 11.2,
+        "p_2nd": 21.8,
+        "p_3rd": 35.2,
+        "p_4th": 31.8,
+        "p_advance": 33.0,
+        "xpts": 3.3,
+        "xgd": -1.27
       }
     },
     "fixtures": {
@@ -637,13 +637,13 @@
         "home": "ESP",
         "away": "CPV",
         "most_likely_score": "1-1",
-        "frequency": 10.7
+        "frequency": 10.9
       },
       "KSAvURU": {
         "home": "KSA",
         "away": "URU",
         "most_likely_score": "0-2",
-        "frequency": 10.9
+        "frequency": 11.2
       },
       "ESPvKSA": {
         "home": "ESP",
@@ -667,53 +667,53 @@
         "home": "URU",
         "away": "ESP",
         "most_likely_score": "1-1",
-        "frequency": 12.6
+        "frequency": 12.3
       }
     }
   },
   "I": {
     "group": "I",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "FRA": {
         "name": "France",
-        "p_1st": 46.1,
-        "p_2nd": 31.1,
-        "p_3rd": 16.3,
-        "p_4th": 6.4,
-        "p_advance": 77.3,
-        "xpts": 5.69,
-        "xgd": 2.45
+        "p_1st": 47.0,
+        "p_2nd": 31.0,
+        "p_3rd": 16.0,
+        "p_4th": 5.9,
+        "p_advance": 78.1,
+        "xpts": 5.75,
+        "xgd": 2.54
       },
       "SEN": {
         "name": "Senegal",
-        "p_1st": 13.3,
-        "p_2nd": 23.7,
-        "p_3rd": 36.4,
-        "p_4th": 26.7,
-        "p_advance": 37.0,
-        "xpts": 3.58,
-        "xgd": -0.92
+        "p_1st": 13.1,
+        "p_2nd": 23.8,
+        "p_3rd": 37.0,
+        "p_4th": 26.1,
+        "p_advance": 36.9,
+        "xpts": 3.57,
+        "xgd": -0.9
       },
       "NOR": {
         "name": "Norway",
-        "p_1st": 36.4,
-        "p_2nd": 33.2,
-        "p_3rd": 21.1,
-        "p_4th": 9.4,
-        "p_advance": 69.6,
-        "xpts": 5.21,
-        "xgd": 1.68
+        "p_1st": 36.0,
+        "p_2nd": 34.4,
+        "p_3rd": 20.8,
+        "p_4th": 8.8,
+        "p_advance": 70.3,
+        "xpts": 5.23,
+        "xgd": 1.7
       },
       "IRQ": {
         "name": "Iraq",
-        "p_1st": 4.2,
-        "p_2nd": 12.0,
-        "p_3rd": 26.2,
-        "p_4th": 57.6,
-        "p_advance": 16.2,
-        "xpts": 2.17,
-        "xgd": -3.21
+        "p_1st": 3.9,
+        "p_2nd": 10.8,
+        "p_3rd": 26.1,
+        "p_4th": 59.2,
+        "p_advance": 14.7,
+        "xpts": 2.1,
+        "xgd": -3.33
       }
     },
     "fixtures": {
@@ -721,83 +721,83 @@
         "home": "FRA",
         "away": "SEN",
         "most_likely_score": "1-1",
-        "frequency": 10.8
+        "frequency": 10.7
       },
       "IRQvNOR": {
         "home": "IRQ",
         "away": "NOR",
         "most_likely_score": "0-2",
-        "frequency": 11.2
+        "frequency": 11.4
       },
       "FRAvIRQ": {
         "home": "FRA",
         "away": "IRQ",
         "most_likely_score": "2-0",
-        "frequency": 11.9
+        "frequency": 12.2
       },
       "NORvSEN": {
         "home": "NOR",
         "away": "SEN",
         "most_likely_score": "1-1",
-        "frequency": 10.5
+        "frequency": 11.3
       },
       "NORvFRA": {
         "home": "NOR",
         "away": "FRA",
         "most_likely_score": "1-1",
-        "frequency": 11.7
+        "frequency": 11.5
       },
       "SENvIRQ": {
         "home": "SEN",
         "away": "IRQ",
         "most_likely_score": "1-1",
-        "frequency": 12.2
+        "frequency": 11.8
       }
     }
   },
   "J": {
     "group": "J",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "ARG": {
         "name": "Argentina",
-        "p_1st": 52.5,
-        "p_2nd": 26.7,
-        "p_3rd": 14.2,
-        "p_4th": 6.7,
+        "p_1st": 52.1,
+        "p_2nd": 27.0,
+        "p_3rd": 14.4,
+        "p_4th": 6.5,
         "p_advance": 79.1,
         "xpts": 5.83,
-        "xgd": 2.63
+        "xgd": 2.6
       },
       "AUT": {
         "name": "Austria",
-        "p_1st": 26.2,
-        "p_2nd": 32.5,
-        "p_3rd": 24.9,
-        "p_4th": 16.3,
-        "p_advance": 58.7,
-        "xpts": 4.52,
-        "xgd": 0.6
+        "p_1st": 26.5,
+        "p_2nd": 32.4,
+        "p_3rd": 25.2,
+        "p_4th": 15.9,
+        "p_advance": 58.9,
+        "xpts": 4.55,
+        "xgd": 0.62
       },
       "ALG": {
         "name": "Algeria",
-        "p_1st": 14.4,
-        "p_2nd": 24.6,
-        "p_3rd": 32.2,
-        "p_4th": 28.9,
-        "p_advance": 38.9,
-        "xpts": 3.56,
-        "xgd": -0.89
+        "p_1st": 14.2,
+        "p_2nd": 24.9,
+        "p_3rd": 32.1,
+        "p_4th": 28.7,
+        "p_advance": 39.2,
+        "xpts": 3.57,
+        "xgd": -0.86
       },
       "JOR": {
         "name": "Jordan",
-        "p_1st": 6.9,
-        "p_2nd": 16.3,
-        "p_3rd": 28.7,
-        "p_4th": 48.1,
-        "p_advance": 23.2,
-        "xpts": 2.65,
-        "xgd": -2.34
+        "p_1st": 7.2,
+        "p_2nd": 15.6,
+        "p_3rd": 28.3,
+        "p_4th": 48.9,
+        "p_advance": 22.8,
+        "xpts": 2.6,
+        "xgd": -2.36
       }
     },
     "fixtures": {
@@ -805,7 +805,7 @@
         "home": "ARG",
         "away": "ALG",
         "most_likely_score": "1-1",
-        "frequency": 10.7
+        "frequency": 10.9
       },
       "AUTvJOR": {
         "home": "AUT",
@@ -817,13 +817,13 @@
         "home": "ARG",
         "away": "AUT",
         "most_likely_score": "1-1",
-        "frequency": 11.7
+        "frequency": 11.6
       },
       "JORvALG": {
         "home": "JOR",
         "away": "ALG",
         "most_likely_score": "1-1",
-        "frequency": 12.5
+        "frequency": 12.7
       },
       "ALGvAUT": {
         "home": "ALG",
@@ -841,47 +841,47 @@
   },
   "K": {
     "group": "K",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "POR": {
         "name": "Portugal",
-        "p_1st": 57.0,
-        "p_2nd": 28.0,
-        "p_3rd": 11.2,
-        "p_4th": 3.8,
-        "p_advance": 85.0,
-        "xpts": 6.18,
-        "xgd": 3.24
+        "p_1st": 49.0,
+        "p_2nd": 31.4,
+        "p_3rd": 14.2,
+        "p_4th": 5.5,
+        "p_advance": 80.4,
+        "xpts": 5.85,
+        "xgd": 2.67
       },
       "COL": {
         "name": "Colombia",
-        "p_1st": 30.1,
-        "p_2nd": 39.6,
-        "p_3rd": 20.7,
-        "p_4th": 9.7,
-        "p_advance": 69.7,
-        "xpts": 5.04,
-        "xgd": 1.36
+        "p_1st": 38.0,
+        "p_2nd": 36.3,
+        "p_3rd": 17.8,
+        "p_4th": 8.0,
+        "p_advance": 74.2,
+        "xpts": 5.37,
+        "xgd": 1.86
       },
       "UZB": {
         "name": "Uzbekistan",
-        "p_1st": 8.2,
-        "p_2nd": 18.8,
-        "p_3rd": 36.4,
-        "p_4th": 36.5,
-        "p_advance": 27.1,
-        "xpts": 2.98,
-        "xgd": -1.76
+        "p_1st": 5.0,
+        "p_2nd": 13.7,
+        "p_3rd": 31.4,
+        "p_4th": 49.9,
+        "p_advance": 18.7,
+        "xpts": 2.42,
+        "xgd": -2.68
       },
       "COD": {
         "name": "DR Congo",
-        "p_1st": 4.7,
-        "p_2nd": 13.6,
-        "p_3rd": 31.7,
-        "p_4th": 50.0,
-        "p_advance": 18.3,
-        "xpts": 2.4,
-        "xgd": -2.84
+        "p_1st": 8.0,
+        "p_2nd": 18.7,
+        "p_3rd": 36.6,
+        "p_4th": 36.7,
+        "p_advance": 26.7,
+        "xpts": 2.97,
+        "xgd": -1.85
       }
     },
     "fixtures": {
@@ -889,83 +889,83 @@
         "home": "POR",
         "away": "COD",
         "most_likely_score": "2-0",
-        "frequency": 12.1
+        "frequency": 10.9
       },
       "UZBvCOL": {
         "home": "UZB",
         "away": "COL",
-        "most_likely_score": "1-1",
-        "frequency": 12.9
+        "most_likely_score": "0-1",
+        "frequency": 11.9
       },
       "PORvUZB": {
         "home": "POR",
         "away": "UZB",
         "most_likely_score": "2-0",
-        "frequency": 11.9
+        "frequency": 12.2
       },
       "COLvCOD": {
         "home": "COL",
         "away": "COD",
-        "most_likely_score": "1-0",
-        "frequency": 11.6
+        "most_likely_score": "2-0",
+        "frequency": 11.2
       },
       "COLvPOR": {
         "home": "COL",
         "away": "POR",
         "most_likely_score": "1-1",
-        "frequency": 12.5
+        "frequency": 11.9
       },
       "CODvUZB": {
         "home": "COD",
         "away": "UZB",
         "most_likely_score": "1-1",
-        "frequency": 13.1
+        "frequency": 13.0
       }
     }
   },
   "L": {
     "group": "L",
-    "simulations": 10000,
+    "simulations": 100000,
     "teams": {
       "ENG": {
         "name": "England",
-        "p_1st": 46.7,
-        "p_2nd": 30.8,
-        "p_3rd": 15.4,
-        "p_4th": 7.1,
-        "p_advance": 77.5,
-        "xpts": 5.68,
-        "xgd": 2.4
+        "p_1st": 51.0,
+        "p_2nd": 30.1,
+        "p_3rd": 13.8,
+        "p_4th": 5.2,
+        "p_advance": 81.0,
+        "xpts": 5.92,
+        "xgd": 2.8
       },
       "CRO": {
         "name": "Croatia",
-        "p_1st": 36.4,
-        "p_2nd": 34.7,
-        "p_3rd": 19.2,
-        "p_4th": 9.7,
-        "p_advance": 71.1,
-        "xpts": 5.22,
-        "xgd": 1.65
+        "p_1st": 34.5,
+        "p_2nd": 36.3,
+        "p_3rd": 20.1,
+        "p_4th": 9.1,
+        "p_advance": 70.9,
+        "xpts": 5.19,
+        "xgd": 1.61
       },
       "GHA": {
         "name": "Ghana",
-        "p_1st": 8.0,
-        "p_2nd": 17.1,
-        "p_3rd": 32.2,
-        "p_4th": 42.7,
-        "p_advance": 25.1,
-        "xpts": 2.78,
-        "xgd": -2.12
+        "p_1st": 4.8,
+        "p_2nd": 12.8,
+        "p_3rd": 29.3,
+        "p_4th": 53.1,
+        "p_advance": 17.6,
+        "xpts": 2.32,
+        "xgd": -2.94
       },
       "PAN": {
         "name": "Panama",
-        "p_1st": 8.9,
-        "p_2nd": 17.4,
-        "p_3rd": 33.2,
-        "p_4th": 40.5,
-        "p_advance": 26.3,
-        "xpts": 2.91,
-        "xgd": -1.93
+        "p_1st": 9.7,
+        "p_2nd": 20.8,
+        "p_3rd": 36.9,
+        "p_4th": 32.7,
+        "p_advance": 30.4,
+        "xpts": 3.18,
+        "xgd": -1.47
       }
     },
     "fixtures": {
@@ -973,37 +973,37 @@
         "home": "ENG",
         "away": "CRO",
         "most_likely_score": "1-1",
-        "frequency": 11.8
+        "frequency": 12.1
       },
       "GHAvPAN": {
         "home": "GHA",
         "away": "PAN",
         "most_likely_score": "1-1",
-        "frequency": 13.3
+        "frequency": 12.9
       },
       "ENGvGHA": {
         "home": "ENG",
         "away": "GHA",
         "most_likely_score": "2-0",
-        "frequency": 10.7
+        "frequency": 11.8
       },
       "PANvCRO": {
         "home": "PAN",
         "away": "CRO",
         "most_likely_score": "1-1",
-        "frequency": 11.0
+        "frequency": 11.5
       },
       "PANvENG": {
         "home": "PAN",
         "away": "ENG",
         "most_likely_score": "0-2",
-        "frequency": 11.4
+        "frequency": 11.0
       },
       "CROvGHA": {
         "home": "CRO",
         "away": "GHA",
-        "most_likely_score": "1-1",
-        "frequency": 11.0
+        "most_likely_score": "2-0",
+        "frequency": 11.2
       }
     }
   }
