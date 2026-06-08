@@ -1,0 +1,160 @@
+"""Knockout stage simulator: R32 → R16 → QF → SF → Final.
+
+Knockout rules:
+- 90 min regulation (Poisson + Dixon-Coles, same as group stage)
+- If draw: 30 min extra time (goals scaled by 1/3)
+- If still draw: penalty shootout (coin flip, slight edge to higher ELO)
+"""
+
+from __future__ import annotations
+
+import json
+from collections import defaultdict
+from pathlib import Path
+
+import numpy as np
+
+from models.match import simulate_match, expected_goals
+from models.ratings import load_teams
+
+DATA_DIR = Path(__file__).parent.parent / "data"
+
+ROUNDS = ["r32", "r16", "qf", "sf", "final"]
+ROUND_LABELS = {
+    "r32": "Round of 32",
+    "r16": "Round of 16",
+    "qf":  "Quarter-finals",
+    "sf":  "Semi-finals",
+    "final": "Final",
+}
+
+# QF/SF/Final pairings derived from the fixed bracket side
+# R16 ids: 89,90,91,92,93,94,95,96
+# QF: 89v90, 91v92, 93v94, 95v96
+# SF: (89/90)v(91/92), (93/94)v(95/96)
+# Final: SF1 v SF2
+BRACKET_TREE = {
+    # (r16_a, r16_b) → qf_id
+    "qf": [(89, 90), (91, 92), (93, 94), (95, 96)],
+    # (qf_idx_a, qf_idx_b) → sf_id (0-indexed into qf list)
+    "sf": [(0, 1), (2, 3)],
+}
+
+
+def _penalty_winner(home: str, away: str, teams_data: dict, rng: np.random.Generator) -> str:
+    """Slight ELO-weighted coin flip for penalty shootout."""
+    home_elo = teams_data[home]["elo"]
+    away_elo = teams_data[away]["elo"]
+    diff = home_elo - away_elo
+    # sigmoid: elo diff of 200 → ~73% win prob
+    p_home = 1 / (1 + 10 ** (-diff / 400))
+    # regress toward 50/50 for penalties
+    p_home = 0.5 + (p_home - 0.5) * 0.3
+    return home if rng.random() < p_home else away
+
+
+def simulate_ko_match(
+    home: str,
+    away: str,
+    teams_data: dict,
+    rng: np.random.Generator,
+    fixture: dict | None = None,
+) -> str:
+    """Simulate a single knockout match; return winner code."""
+    if fixture is None:
+        fixture = {"home": home, "away": away, "altitude_m": 0, "home_advantage": None}
+
+    hg, ag = simulate_match(teams_data[home], teams_data[away], fixture, rng)
+
+    if hg != ag:
+        return home if hg > ag else away
+
+    # Extra time: scale expected goals by 30/90
+    lh, la = expected_goals(teams_data[home], teams_data[away], fixture)
+    et_lh, et_la = lh * (30 / 90), la * (30 / 90)
+    et_hg = int(rng.poisson(et_lh))
+    et_ag = int(rng.poisson(et_la))
+
+    if et_hg != et_ag:
+        return home if et_hg > et_ag else away
+
+    # Penalties
+    return _penalty_winner(home, away, teams_data, rng)
+
+
+def simulate_knockout(n: int = 10_000, seed: int | None = None) -> dict:
+    bracket = json.loads((DATA_DIR / "bracket.json").read_text())
+    teams_data = load_teams()
+    rng = np.random.default_rng(seed)
+
+    r32_matches = {m["id"]: m for m in bracket["round_of_32"]}
+    r16_pairs = {m["id"]: m for m in bracket["round_of_16"]}
+
+    # reach[team][round] = count of simulations reaching that round
+    reach: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+
+    for _ in range(n):
+        # --- R32 ---
+        r32_winners: dict[int, str] = {}
+        for mid, m in r32_matches.items():
+            fixture = {
+                "home": m["home"], "away": m["away"],
+                "altitude_m": 0, "home_advantage": m["home"],
+            }
+            winner = simulate_ko_match(m["home"], m["away"], teams_data, rng, fixture)
+            r32_winners[mid] = winner
+            reach[winner]["r32"] += 1
+            reach[m["home"] if winner == m["away"] else m["away"]]["r32"] += 0  # loser gets 0
+
+        # --- R16 ---
+        r16_winners: dict[int, str] = {}
+        for rid, r in r16_pairs.items():
+            home = r32_winners[r["slot_a"]]
+            away = r32_winners[r["slot_b"]]
+            winner = simulate_ko_match(home, away, teams_data, rng)
+            r16_winners[rid] = winner
+            reach[winner]["r16"] += 1
+
+        # --- QF ---
+        qf_winners: list[str] = []
+        for r16a_id, r16b_id in BRACKET_TREE["qf"]:
+            home = r16_winners[r16a_id]
+            away = r16_winners[r16b_id]
+            winner = simulate_ko_match(home, away, teams_data, rng)
+            qf_winners.append(winner)
+            reach[winner]["qf"] += 1
+
+        # --- SF ---
+        sf_winners: list[str] = []
+        for qa_idx, qb_idx in BRACKET_TREE["sf"]:
+            home = qf_winners[qa_idx]
+            away = qf_winners[qb_idx]
+            winner = simulate_ko_match(home, away, teams_data, rng)
+            sf_winners.append(winner)
+            reach[winner]["sf"] += 1
+
+        # --- Final ---
+        champion = simulate_ko_match(sf_winners[0], sf_winners[1], teams_data, rng)
+        reach[champion]["final"] += 1
+
+    # Collect all teams that appear in R32
+    r32_teams: set[str] = set()
+    for m in r32_matches.values():
+        r32_teams.add(m["home"])
+        r32_teams.add(m["away"])
+
+    results = {"simulations": n, "teams": {}}
+    for code in r32_teams:
+        r = reach[code]
+        results["teams"][code] = {
+            "name": teams_data[code]["name"],
+            "p_r32":   round(r.get("r32",  0) / n * 100, 1),
+            "p_r16":   round(r.get("r16",  0) / n * 100, 1),
+            "p_qf":    round(r.get("qf",   0) / n * 100, 1),
+            "p_sf":    round(r.get("sf",   0) / n * 100, 1),
+            "p_final": round(r.get("final",0) / n * 100, 1),
+        }
+
+    # attach bracket map for display
+    results["bracket"] = bracket
+    return results

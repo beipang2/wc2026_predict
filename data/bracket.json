@@ -1,0 +1,30 @@
+{
+  "round_of_32": [
+    {"id": 73, "home": "KOR", "away": "CAN", "venue": "SoFi Stadium", "city": "Inglewood",      "date": "2026-06-28", "next": 90},
+    {"id": 74, "home": "GER", "away": "SCO", "venue": "Gillette Stadium", "city": "Foxborough",  "date": "2026-06-29", "next": 89},
+    {"id": 75, "home": "JPN", "away": "MAR", "venue": "Estadio BBVA", "city": "Guadalupe",       "date": "2026-06-29", "next": 90},
+    {"id": 76, "home": "BRA", "away": "NED", "venue": "NRG Stadium", "city": "Houston",          "date": "2026-06-29", "next": 91},
+    {"id": 77, "home": "FRA", "away": "CPV", "venue": "MetLife Stadium", "city": "East Rutherford", "date": "2026-06-30", "next": 89},
+    {"id": 78, "home": "ECU", "away": "NOR", "venue": "AT&T Stadium", "city": "Arlington",       "date": "2026-06-30", "next": 91},
+    {"id": 79, "home": "MEX", "away": "CIV", "venue": "Estadio Azteca", "city": "Mexico City",   "date": "2026-07-01", "next": 92},
+    {"id": 80, "home": "ENG", "away": "UZB", "venue": "Mercedes-Benz Stadium", "city": "Atlanta","date": "2026-07-01", "next": 92},
+    {"id": 81, "home": "USA", "away": "BIH", "venue": "Levi's Stadium", "city": "Santa Clara",   "date": "2026-07-01", "next": 94},
+    {"id": 82, "home": "BEL", "away": "CZE", "venue": "Lumen Field", "city": "Seattle",          "date": "2026-07-01", "next": 94},
+    {"id": 83, "home": "COL", "away": "CRO", "venue": "BMO Field", "city": "Toronto",            "date": "2026-07-02", "next": 93},
+    {"id": 84, "home": "ESP", "away": "AUT", "venue": "SoFi Stadium", "city": "Inglewood",       "date": "2026-07-02", "next": 93},
+    {"id": 85, "home": "SUI", "away": "ALG", "venue": "BC Place", "city": "Vancouver",           "date": "2026-07-03", "next": 96},
+    {"id": 86, "home": "ARG", "away": "URU", "venue": "Hard Rock Stadium", "city": "Miami Gardens", "date": "2026-07-03", "next": 95},
+    {"id": 87, "home": "POR", "away": "SEN", "venue": "Arrowhead Stadium", "city": "Kansas City","date": "2026-07-03", "next": 96},
+    {"id": 88, "home": "TUR", "away": "IRN", "venue": "AT&T Stadium", "city": "Arlington",       "date": "2026-07-03", "next": 95}
+  ],
+  "round_of_16": [
+    {"id": 89, "slot_a": 74, "slot_b": 77, "next": null},
+    {"id": 90, "slot_a": 73, "slot_b": 75, "next": null},
+    {"id": 91, "slot_a": 76, "slot_b": 78, "next": null},
+    {"id": 92, "slot_a": 79, "slot_b": 80, "next": null},
+    {"id": 93, "slot_a": 83, "slot_b": 84, "next": null},
+    {"id": 94, "slot_a": 81, "slot_b": 82, "next": null},
+    {"id": 95, "slot_a": 86, "slot_b": 88, "next": null},
+    {"id": 96, "slot_a": 85, "slot_b": 87, "next": null}
+  ]
+}

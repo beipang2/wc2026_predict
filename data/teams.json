@@ -44,10 +44,10 @@
     "confederation": "CONCACAF",
     "fifa_rank": 47,
     "elo": 1725,
-    "attack": 1.4,
+    "attack": 1.35,
     "defense": 0.98,
-    "notes": "Co-host. Strong qualifying campaign. Home support key.",
-    "form": 1.04
+    "notes": "Co-host. No qualifying pressure. Davies out G1. David-dependent attack. Copa 2024 scored 2 in 5.",
+    "form": 0.93
   },
   "SUI": {
     "name": "Switzerland",
@@ -126,8 +126,8 @@
     "elo": 1765,
     "attack": 1.45,
     "defense": 0.93,
-    "notes": "Co-host. Young, talented squad. Huge home crowd advantage.",
-    "form": 0.96
+    "notes": "Co-host. Copa 2024 group exit. Lost to Belgium 5-2, Portugal 2-0, Germany 2-1. Pochettino new coach.",
+    "form": 0.92
   },
   "PAR": {
     "name": "Paraguay",
@@ -156,8 +156,8 @@
     "elo": 1685,
     "attack": 1.3,
     "defense": 1.05,
-    "notes": "EURO 2024 QF. Experienced and tactically flexible squad.",
-    "form": 1.1
+    "notes": "EURO 2024 QF. Guler (21, Real Madrid) + Yildiz (20, Juventus). Montella 3yr continuity. NL A promotion.",
+    "form": 1.04
   },
   "GER": {
     "name": "Germany",
@@ -204,20 +204,20 @@
     "confederation": "UEFA",
     "fifa_rank": 7,
     "elo": 1875,
-    "attack": 1.65,
+    "attack": 1.55,
     "defense": 0.86,
-    "notes": "EURO 2024 semifinalists. Van Dijk leads experienced core.",
-    "form": 0.87
+    "notes": "EURO 2024 SF. Xavi Simons ACL out. Depay 1 goal in 13 matches. Lost to Algeria at home.",
+    "form": 0.83
   },
   "JPN": {
     "name": "Japan",
     "confederation": "AFC",
     "fifa_rank": 17,
     "elo": 1755,
-    "attack": 1.45,
+    "attack": 1.38,
     "defense": 0.94,
-    "notes": "2022 RO16. Europe-based golden generation peaking.",
-    "form": 0.86
+    "notes": "Beat England at Wembley + Brazil 3-2. Mitoma + Minamino both out injured. Core 25-29 intact.",
+    "form": 0.93
   },
   "TUN": {
     "name": "Tunisia",
@@ -406,8 +406,8 @@
     "elo": 1890,
     "attack": 1.7,
     "defense": 0.85,
-    "notes": "Post-Ronaldo era but Joao Felix/Vitinha generation is elite.",
-    "form": 1.02
+    "notes": "Nations League 2025 winners vs Spain. Joao Neves 21, Vitinha 26 prime midfield. Martinez 3yr continuity.",
+    "form": 1.05
   },
   "COL": {
     "name": "Colombia",
@@ -416,8 +416,8 @@
     "elo": 1800,
     "attack": 1.55,
     "defense": 0.91,
-    "notes": "Copa America 2024 runners-up. Diaz and Vidal lead.",
-    "form": 1.05
+    "notes": "Copa America 2024 runners-up. Beat Brazil + Argentina in qualifying. Diaz at Bayern peak.",
+    "form": 1.07
   },
   "UZB": {
     "name": "Uzbekistan",
@@ -426,8 +426,8 @@
     "elo": 1552,
     "attack": 1.02,
     "defense": 1.2,
-    "notes": "AFC playoff qualifier. Rapid improvement in recent years.",
-    "form": 0.95
+    "notes": "Beat Netherlands 5-3 pre-WC. Khusanov (Man City) elite. Fayzullaev 22 ascending. Cannavaro coach (Oct 2025).",
+    "form": 1.05
   },
   "COD": {
     "name": "DR Congo",
@@ -436,8 +436,8 @@
     "elo": 1595,
     "attack": 1.1,
     "defense": 1.16,
-    "notes": "First WC since 1974. Physical and pacey in attack.",
-    "form": 1.0
+    "notes": "First WC since 1974. Wissa (Newcastle) elite. Lost 6-2 Chile friendly. Defensive fragility exposed.",
+    "form": 0.89
   },
   "ENG": {
     "name": "England",
@@ -466,8 +466,8 @@
     "elo": 1618,
     "attack": 1.15,
     "defense": 1.13,
-    "notes": "Returned to WC. Energetic squad with European-based players.",
-    "form": 0.82
+    "notes": "Queiroz coach (Apr 2026, 8wks before tournament). Kudus out (surgery). Missed AFCON 2025. Semenyo/Williams talent floor.",
+    "form": 0.90
   },
   "PAN": {
     "name": "Panama",
@@ -476,7 +476,7 @@
     "elo": 1575,
     "attack": 1.05,
     "defense": 1.19,
-    "notes": "CONCACAF qualifiers. Strong team spirit, disciplined shape.",
-    "form": 1.0
+    "notes": "2x CONCACAF finalist (2023, 2025). Unbeaten qualifying. Christiansen 6yr. Carrasquilla groin concern.",
+    "form": 0.98
   }
 }
