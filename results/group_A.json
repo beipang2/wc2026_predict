@@ -1,0 +1,84 @@
+{
+  "group": "A",
+  "simulations": 10000,
+  "teams": {
+    "MEX": {
+      "name": "Mexico",
+      "p_1st": 49.6,
+      "p_2nd": 29.4,
+      "p_3rd": 15.8,
+      "p_4th": 5.2,
+      "p_advance": 79.0,
+      "xpts": 5.82,
+      "xgd": 2.7
+    },
+    "KOR": {
+      "name": "South Korea",
+      "p_1st": 31.0,
+      "p_2nd": 34.6,
+      "p_3rd": 24.6,
+      "p_4th": 9.8,
+      "p_advance": 65.6,
+      "xpts": 4.98,
+      "xgd": 1.29
+    },
+    "CZE": {
+      "name": "Czechia",
+      "p_1st": 16.2,
+      "p_2nd": 26.8,
+      "p_3rd": 36.0,
+      "p_4th": 21.0,
+      "p_advance": 43.0,
+      "xpts": 3.89,
+      "xgd": -0.29
+    },
+    "RSA": {
+      "name": "South Africa",
+      "p_1st": 3.2,
+      "p_2nd": 9.2,
+      "p_3rd": 23.6,
+      "p_4th": 64.0,
+      "p_advance": 12.4,
+      "xpts": 1.92,
+      "xgd": -3.7
+    }
+  },
+  "fixtures": {
+    "MEXvRSA": {
+      "home": "MEX",
+      "away": "RSA",
+      "most_likely_score": "2-0",
+      "frequency": 13.7
+    },
+    "KORvCZE": {
+      "home": "KOR",
+      "away": "CZE",
+      "most_likely_score": "1-1",
+      "frequency": 12.2
+    },
+    "CZEvRSA": {
+      "home": "CZE",
+      "away": "RSA",
+      "most_likely_score": "1-1",
+      "frequency": 12.1
+    },
+    "MEXvKOR": {
+      "home": "MEX",
+      "away": "KOR",
+      "most_likely_score": "1-1",
+      "frequency": 11.4
+    },
+    "RSAvKOR": {
+      "home": "RSA",
+      "away": "KOR",
+      "most_likely_score": "0-2",
+      "frequency": 12.1
+    },
+    "CZEvMEX": {
+      "home": "CZE",
+      "away": "MEX",
+      "most_likely_score": "1-1",
+      "frequency": 12.9
+    }
+  }
+}

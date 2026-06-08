@@ -1,0 +1,84 @@
+{
+  "group": "D",
+  "simulations": 10000,
+  "teams": {
+    "USA": {
+      "name": "United States",
+      "p_1st": 34.8,
+      "p_2nd": 27.8,
+      "p_3rd": 21.6,
+      "p_4th": 15.9,
+      "p_advance": 62.6,
+      "xpts": 4.79,
+      "xgd": 1.0
+    },
+    "PAR": {
+      "name": "Paraguay",
+      "p_1st": 12.6,
+      "p_2nd": 18.7,
+      "p_3rd": 27.2,
+      "p_4th": 41.5,
+      "p_advance": 31.3,
+      "xpts": 3.1,
+      "xgd": -1.51
+    },
+    "AUS": {
+      "name": "Australia",
+      "p_1st": 20.9,
+      "p_2nd": 25.1,
+      "p_3rd": 27.9,
+      "p_4th": 26.1,
+      "p_advance": 46.0,
+      "xpts": 3.92,
+      "xgd": -0.29
+    },
+    "TUR": {
+      "name": "Turkey",
+      "p_1st": 31.8,
+      "p_2nd": 28.3,
+      "p_3rd": 23.4,
+      "p_4th": 16.5,
+      "p_advance": 60.1,
+      "xpts": 4.67,
+      "xgd": 0.8
+    }
+  },
+  "fixtures": {
+    "USAvPAR": {
+      "home": "USA",
+      "away": "PAR",
+      "most_likely_score": "1-1",
+      "frequency": 11.9
+    },
+    "AUSvTUR": {
+      "home": "AUS",
+      "away": "TUR",
+      "most_likely_score": "1-1",
+      "frequency": 11.9
+    },
+    "USAvAUS": {
+      "home": "USA",
+      "away": "AUS",
+      "most_likely_score": "1-1",
+      "frequency": 11.5
+    },
+    "TURvPAR": {
+      "home": "TUR",
+      "away": "PAR",
+      "most_likely_score": "1-1",
+      "frequency": 12.1
+    },
+    "TURvUSA": {
+      "home": "TUR",
+      "away": "USA",
+      "most_likely_score": "1-1",
+      "frequency": 12.5
+    },
+    "PARvAUS": {
+      "home": "PAR",
+      "away": "AUS",
+      "most_likely_score": "1-1",
+      "frequency": 11.9
+    }
+  }
+}

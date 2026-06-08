@@ -1,0 +1,14 @@
+{
+  "A": { "teams": ["MEX", "KOR", "CZE", "RSA"] },
+  "B": { "teams": ["CAN", "SUI", "QAT", "BIH"] },
+  "C": { "teams": ["BRA", "MAR", "SCO", "HAI"] },
+  "D": { "teams": ["USA", "PAR", "AUS", "TUR"] },
+  "E": { "teams": ["GER", "ECU", "CIV", "CUW"] },
+  "F": { "teams": ["NED", "JPN", "TUN", "SWE"] },
+  "G": { "teams": ["BEL", "IRN", "EGY", "NZL"] },
+  "H": { "teams": ["ESP", "URU", "KSA", "CPV"] },
+  "I": { "teams": ["FRA", "SEN", "NOR", "IRQ"] },
+  "J": { "teams": ["ARG", "AUT", "ALG", "JOR"] },
+  "K": { "teams": ["POR", "COL", "UZB", "COD"] },
+  "L": { "teams": ["ENG", "CRO", "GHA", "PAN"] }
+}

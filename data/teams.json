@@ -1,0 +1,482 @@
+{
+  "MEX": {
+    "name": "Mexico",
+    "confederation": "CONCACAF",
+    "fifa_rank": 13,
+    "elo": 1850,
+    "attack": 1.6,
+    "defense": 0.85,
+    "notes": "Co-host. Won 2025 Nations League + Gold Cup.",
+    "form": 0.99
+  },
+  "KOR": {
+    "name": "South Korea",
+    "confederation": "AFC",
+    "fifa_rank": 25,
+    "elo": 1720,
+    "attack": 1.4,
+    "defense": 1.0,
+    "notes": "Only unbeaten AFC qualifier. Poor pre-tournament form.",
+    "form": 1.08
+  },
+  "CZE": {
+    "name": "Czechia",
+    "confederation": "UEFA",
+    "fifa_rank": 41,
+    "elo": 1640,
+    "attack": 1.2,
+    "defense": 1.1,
+    "notes": "Qualified via penalties vs Ireland and Denmark.",
+    "form": 1.03
+  },
+  "RSA": {
+    "name": "South Africa",
+    "confederation": "CAF",
+    "fifa_rank": 60,
+    "elo": 1510,
+    "attack": 1.0,
+    "defense": 1.2,
+    "notes": "First WC since 2010. Lost all 3 pre-tournament friendlies.",
+    "form": 0.9
+  },
+  "CAN": {
+    "name": "Canada",
+    "confederation": "CONCACAF",
+    "fifa_rank": 47,
+    "elo": 1725,
+    "attack": 1.4,
+    "defense": 0.98,
+    "notes": "Co-host. Strong qualifying campaign. Home support key.",
+    "form": 1.04
+  },
+  "SUI": {
+    "name": "Switzerland",
+    "confederation": "UEFA",
+    "fifa_rank": 19,
+    "elo": 1722,
+    "attack": 1.4,
+    "defense": 0.98,
+    "notes": "Consistently solid Europeans. Dangerous in group stage.",
+    "form": 1.08
+  },
+  "QAT": {
+    "name": "Qatar",
+    "confederation": "AFC",
+    "fifa_rank": 37,
+    "elo": 1578,
+    "attack": 1.05,
+    "defense": 1.18,
+    "notes": "Defending host, weak exit in 2022. Improved since.",
+    "form": 0.88
+  },
+  "BIH": {
+    "name": "Bosnia & Herzegovina",
+    "confederation": "UEFA",
+    "fifa_rank": 65,
+    "elo": 1625,
+    "attack": 1.18,
+    "defense": 1.12,
+    "notes": "First ever World Cup appearance. Dangerous attacking options.",
+    "form": 0.95
+  },
+  "BRA": {
+    "name": "Brazil",
+    "confederation": "CONMEBOL",
+    "fifa_rank": 4,
+    "elo": 1935,
+    "attack": 1.75,
+    "defense": 0.82,
+    "notes": "5x champions. Hunting to end long title drought.",
+    "form": 0.95
+  },
+  "MAR": {
+    "name": "Morocco",
+    "confederation": "CAF",
+    "fifa_rank": 14,
+    "elo": 1760,
+    "attack": 1.45,
+    "defense": 0.93,
+    "notes": "2022 semifinalists. Excellent defensive record.",
+    "form": 1.08
+  },
+  "SCO": {
+    "name": "Scotland",
+    "confederation": "UEFA",
+    "fifa_rank": 39,
+    "elo": 1658,
+    "attack": 1.25,
+    "defense": 1.07,
+    "notes": "First WC since 1998. Strong qualification run.",
+    "form": 1.0
+  },
+  "HAI": {
+    "name": "Haiti",
+    "confederation": "CONCACAF",
+    "fifa_rank": 83,
+    "elo": 1518,
+    "attack": 0.95,
+    "defense": 1.23,
+    "notes": "Surprise qualifier. Limited top-flight experience.",
+    "form": 1.0
+  },
+  "USA": {
+    "name": "United States",
+    "confederation": "CONCACAF",
+    "fifa_rank": 14,
+    "elo": 1765,
+    "attack": 1.45,
+    "defense": 0.93,
+    "notes": "Co-host. Young, talented squad. Huge home crowd advantage.",
+    "form": 0.96
+  },
+  "PAR": {
+    "name": "Paraguay",
+    "confederation": "CONMEBOL",
+    "fifa_rank": 58,
+    "elo": 1622,
+    "attack": 1.15,
+    "defense": 1.12,
+    "notes": "Solid qualifiers. Physical, organised defensively.",
+    "form": 1.0
+  },
+  "AUS": {
+    "name": "Australia",
+    "confederation": "AFC",
+    "fifa_rank": 23,
+    "elo": 1698,
+    "attack": 1.35,
+    "defense": 1.02,
+    "notes": "2022 QF run boosted confidence. Socceroos improving.",
+    "form": 0.98
+  },
+  "TUR": {
+    "name": "Turkey",
+    "confederation": "UEFA",
+    "fifa_rank": 26,
+    "elo": 1685,
+    "attack": 1.3,
+    "defense": 1.05,
+    "notes": "EURO 2024 QF. Experienced and tactically flexible squad.",
+    "form": 1.1
+  },
+  "GER": {
+    "name": "Germany",
+    "confederation": "UEFA",
+    "fifa_rank": 12,
+    "elo": 1905,
+    "attack": 1.75,
+    "defense": 0.84,
+    "notes": "EURO 2024 QF hosts. Hunger to end major trophy drought.",
+    "form": 1.08
+  },
+  "ECU": {
+    "name": "Ecuador",
+    "confederation": "CONMEBOL",
+    "fifa_rank": 44,
+    "elo": 1695,
+    "attack": 1.35,
+    "defense": 1.03,
+    "notes": "Consistent CONMEBOL qualifiers. Good team structure.",
+    "form": 1.05
+  },
+  "CIV": {
+    "name": "Ivory Coast",
+    "confederation": "CAF",
+    "fifa_rank": 48,
+    "elo": 1680,
+    "attack": 1.3,
+    "defense": 1.05,
+    "notes": "AFCON 2023 champions. Talented generation led by Zaha era successors.",
+    "form": 1.0
+  },
+  "CUW": {
+    "name": "Curacao",
+    "confederation": "CONCACAF",
+    "fifa_rank": 84,
+    "elo": 1455,
+    "attack": 0.8,
+    "defense": 1.28,
+    "notes": "Surprise CONCACAF qualifier. Significant step up in class.",
+    "form": 0.88
+  },
+  "NED": {
+    "name": "Netherlands",
+    "confederation": "UEFA",
+    "fifa_rank": 7,
+    "elo": 1875,
+    "attack": 1.65,
+    "defense": 0.86,
+    "notes": "EURO 2024 semifinalists. Van Dijk leads experienced core.",
+    "form": 0.87
+  },
+  "JPN": {
+    "name": "Japan",
+    "confederation": "AFC",
+    "fifa_rank": 17,
+    "elo": 1755,
+    "attack": 1.45,
+    "defense": 0.94,
+    "notes": "2022 RO16. Europe-based golden generation peaking.",
+    "form": 0.86
+  },
+  "TUN": {
+    "name": "Tunisia",
+    "confederation": "CAF",
+    "fifa_rank": 32,
+    "elo": 1645,
+    "attack": 1.2,
+    "defense": 1.1,
+    "notes": "Defensively disciplined. Struggle converting chances.",
+    "form": 0.97
+  },
+  "SWE": {
+    "name": "Sweden",
+    "confederation": "UEFA",
+    "fifa_rank": 21,
+    "elo": 1700,
+    "attack": 1.35,
+    "defense": 1.02,
+    "notes": "Qualified comfortably. Isak leads the line. Solid unit.",
+    "form": 0.92
+  },
+  "BEL": {
+    "name": "Belgium",
+    "confederation": "UEFA",
+    "fifa_rank": 5,
+    "elo": 1845,
+    "attack": 1.6,
+    "defense": 0.88,
+    "notes": "Golden generation fading but De Bruyne still world class.",
+    "form": 0.9
+  },
+  "IRN": {
+    "name": "Iran",
+    "confederation": "AFC",
+    "fifa_rank": 20,
+    "elo": 1640,
+    "attack": 1.2,
+    "defense": 1.1,
+    "notes": "Defensively sound AFC qualifier. Difficult to beat.",
+    "form": 1.05
+  },
+  "EGY": {
+    "name": "Egypt",
+    "confederation": "CAF",
+    "fifa_rank": 34,
+    "elo": 1650,
+    "attack": 1.22,
+    "defense": 1.08,
+    "notes": "Salah's last tournament chance. Must support him with quality.",
+    "form": 1.0
+  },
+  "NZL": {
+    "name": "New Zealand",
+    "confederation": "OFC",
+    "fifa_rank": 96,
+    "elo": 1522,
+    "attack": 0.95,
+    "defense": 1.22,
+    "notes": "OFC qualifiers. Massive step up in class at WC level.",
+    "form": 1.0
+  },
+  "ESP": {
+    "name": "Spain",
+    "confederation": "UEFA",
+    "fifa_rank": 6,
+    "elo": 1945,
+    "attack": 1.8,
+    "defense": 0.8,
+    "notes": "EURO 2024 champions. Yamal era in full swing.",
+    "form": 0.94
+  },
+  "URU": {
+    "name": "Uruguay",
+    "confederation": "CONMEBOL",
+    "fifa_rank": 9,
+    "elo": 1810,
+    "attack": 1.55,
+    "defense": 0.9,
+    "notes": "Tough, experienced. Darwin Nunez leads attack.",
+    "form": 1.0
+  },
+  "KSA": {
+    "name": "Saudi Arabia",
+    "confederation": "AFC",
+    "fifa_rank": 56,
+    "elo": 1612,
+    "attack": 1.12,
+    "defense": 1.14,
+    "notes": "2022 giant killers. Established in top Asian bracket.",
+    "form": 0.9
+  },
+  "CPV": {
+    "name": "Cape Verde",
+    "confederation": "CAF",
+    "fifa_rank": 71,
+    "elo": 1578,
+    "attack": 1.05,
+    "defense": 1.18,
+    "notes": "AFCON regulars. Compact defensively, pace in transition.",
+    "form": 1.08
+  },
+  "FRA": {
+    "name": "France",
+    "confederation": "UEFA",
+    "fifa_rank": 2,
+    "elo": 1985,
+    "attack": 1.85,
+    "defense": 0.78,
+    "notes": "5 PSG CL winners in squad. Dembele Ballon d'Or, Doue CL Young Player. Saliba doubtful (back) is the only real concern.",
+    "form": 1.04
+  },
+  "SEN": {
+    "name": "Senegal",
+    "confederation": "CAF",
+    "fifa_rank": 16,
+    "elo": 1750,
+    "attack": 1.45,
+    "defense": 0.95,
+    "notes": "AFCON champions. Mane-generation core still competitive.",
+    "form": 0.97
+  },
+  "NOR": {
+    "name": "Norway",
+    "confederation": "UEFA",
+    "fifa_rank": 22,
+    "elo": 1825,
+    "attack": 1.65,
+    "defense": 0.9,
+    "notes": "Haaland-powered. First WC since 1998. High goal threat.",
+    "form": 1.1
+  },
+  "IRQ": {
+    "name": "Iraq",
+    "confederation": "AFC",
+    "fifa_rank": 63,
+    "elo": 1592,
+    "attack": 1.08,
+    "defense": 1.17,
+    "notes": "Improved AFC side. First WC since 1986.",
+    "form": 1.0
+  },
+  "ARG": {
+    "name": "Argentina",
+    "confederation": "CONMEBOL",
+    "fifa_rank": 1,
+    "elo": 1930,
+    "attack": 1.75,
+    "defense": 0.82,
+    "notes": "Reigning world champions. Messi's farewell tournament.",
+    "form": 1.0
+  },
+  "AUT": {
+    "name": "Austria",
+    "confederation": "UEFA",
+    "fifa_rank": 27,
+    "elo": 1712,
+    "attack": 1.38,
+    "defense": 1.0,
+    "notes": "EURO 2024 RO16. Alaba era ending, new generation solid.",
+    "form": 1.05
+  },
+  "ALG": {
+    "name": "Algeria",
+    "confederation": "CAF",
+    "fifa_rank": 51,
+    "elo": 1658,
+    "attack": 1.25,
+    "defense": 1.07,
+    "notes": "Experienced CAF qualifier. First WC since 2014.",
+    "form": 1.0
+  },
+  "JOR": {
+    "name": "Jordan",
+    "confederation": "AFC",
+    "fifa_rank": 68,
+    "elo": 1572,
+    "attack": 1.05,
+    "defense": 1.19,
+    "notes": "AFC playoff qualifier. AFCON runners-up 2023. Surprise package.",
+    "form": 1.0
+  },
+  "POR": {
+    "name": "Portugal",
+    "confederation": "UEFA",
+    "fifa_rank": 8,
+    "elo": 1890,
+    "attack": 1.7,
+    "defense": 0.85,
+    "notes": "Post-Ronaldo era but Joao Felix/Vitinha generation is elite.",
+    "form": 1.02
+  },
+  "COL": {
+    "name": "Colombia",
+    "confederation": "CONMEBOL",
+    "fifa_rank": 11,
+    "elo": 1800,
+    "attack": 1.55,
+    "defense": 0.91,
+    "notes": "Copa America 2024 runners-up. Diaz and Vidal lead.",
+    "form": 1.05
+  },
+  "UZB": {
+    "name": "Uzbekistan",
+    "confederation": "AFC",
+    "fifa_rank": 74,
+    "elo": 1552,
+    "attack": 1.02,
+    "defense": 1.2,
+    "notes": "AFC playoff qualifier. Rapid improvement in recent years.",
+    "form": 0.95
+  },
+  "COD": {
+    "name": "DR Congo",
+    "confederation": "CAF",
+    "fifa_rank": 59,
+    "elo": 1595,
+    "attack": 1.1,
+    "defense": 1.16,
+    "notes": "First WC since 1974. Physical and pacey in attack.",
+    "form": 1.0
+  },
+  "ENG": {
+    "name": "England",
+    "confederation": "UEFA",
+    "fifa_rank": 3,
+    "elo": 1960,
+    "attack": 1.8,
+    "defense": 0.8,
+    "notes": "EURO 2024 runners-up. Bellingham-led golden generation.",
+    "form": 0.91
+  },
+  "CRO": {
+    "name": "Croatia",
+    "confederation": "UEFA",
+    "fifa_rank": 10,
+    "elo": 1785,
+    "attack": 1.5,
+    "defense": 0.92,
+    "notes": "2022 3rd place. Modric's last dance. Battle-hardened.",
+    "form": 0.97
+  },
+  "GHA": {
+    "name": "Ghana",
+    "confederation": "CAF",
+    "fifa_rank": 62,
+    "elo": 1618,
+    "attack": 1.15,
+    "defense": 1.13,
+    "notes": "Returned to WC. Energetic squad with European-based players.",
+    "form": 0.82
+  },
+  "PAN": {
+    "name": "Panama",
+    "confederation": "CONCACAF",
+    "fifa_rank": 49,
+    "elo": 1575,
+    "attack": 1.05,
+    "defense": 1.19,
+    "notes": "CONCACAF qualifiers. Strong team spirit, disciplined shape.",
+    "form": 1.0
+  }
+}

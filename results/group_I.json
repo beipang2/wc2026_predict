@@ -1,0 +1,84 @@
+{
+  "group": "I",
+  "simulations": 10000,
+  "teams": {
+    "FRA": {
+      "name": "France",
+      "p_1st": 46.5,
+      "p_2nd": 31.0,
+      "p_3rd": 16.5,
+      "p_4th": 6.0,
+      "p_advance": 77.5,
+      "xpts": 5.73,
+      "xgd": 2.51
+    },
+    "SEN": {
+      "name": "Senegal",
+      "p_1st": 13.2,
+      "p_2nd": 24.1,
+      "p_3rd": 36.5,
+      "p_4th": 26.2,
+      "p_advance": 37.4,
+      "xpts": 3.58,
+      "xgd": -0.86
+    },
+    "NOR": {
+      "name": "Norway",
+      "p_1st": 36.1,
+      "p_2nd": 33.8,
+      "p_3rd": 21.1,
+      "p_4th": 9.0,
+      "p_advance": 69.9,
+      "xpts": 5.21,
+      "xgd": 1.67
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "p_1st": 4.2,
+      "p_2nd": 11.1,
+      "p_3rd": 25.9,
+      "p_4th": 58.8,
+      "p_advance": 15.3,
+      "xpts": 2.14,
+      "xgd": -3.31
+    }
+  },
+  "fixtures": {
+    "FRAvSEN": {
+      "home": "FRA",
+      "away": "SEN",
+      "most_likely_score": "1-1",
+      "frequency": 10.7
+    },
+    "IRQvNOR": {
+      "home": "IRQ",
+      "away": "NOR",
+      "most_likely_score": "0-2",
+      "frequency": 10.8
+    },
+    "FRAvIRQ": {
+      "home": "FRA",
+      "away": "IRQ",
+      "most_likely_score": "2-0",
+      "frequency": 12.0
+    },
+    "NORvSEN": {
+      "home": "NOR",
+      "away": "SEN",
+      "most_likely_score": "1-1",
+      "frequency": 11.3
+    },
+    "NORvFRA": {
+      "home": "NOR",
+      "away": "FRA",
+      "most_likely_score": "1-1",
+      "frequency": 11.5
+    },
+    "SENvIRQ": {
+      "home": "SEN",
+      "away": "IRQ",
+      "most_likely_score": "1-1",
+      "frequency": 11.7
+    }
+  }
+}

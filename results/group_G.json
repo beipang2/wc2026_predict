@@ -1,0 +1,84 @@
+{
+  "group": "G",
+  "simulations": 10000,
+  "teams": {
+    "BEL": {
+      "name": "Belgium",
+      "p_1st": 41.1,
+      "p_2nd": 27.3,
+      "p_3rd": 19.4,
+      "p_4th": 12.2,
+      "p_advance": 68.4,
+      "xpts": 5.13,
+      "xgd": 1.49
+    },
+    "IRN": {
+      "name": "Iran",
+      "p_1st": 25.9,
+      "p_2nd": 28.6,
+      "p_3rd": 25.5,
+      "p_4th": 20.0,
+      "p_advance": 54.5,
+      "xpts": 4.33,
+      "xgd": 0.34
+    },
+    "EGY": {
+      "name": "Egypt",
+      "p_1st": 22.9,
+      "p_2nd": 26.6,
+      "p_3rd": 28.0,
+      "p_4th": 22.4,
+      "p_advance": 49.6,
+      "xpts": 4.11,
+      "xgd": -0.01
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "p_1st": 10.0,
+      "p_2nd": 17.4,
+      "p_3rd": 27.1,
+      "p_4th": 45.4,
+      "p_advance": 27.5,
+      "xpts": 2.87,
+      "xgd": -1.81
+    }
+  },
+  "fixtures": {
+    "BELvEGY": {
+      "home": "BEL",
+      "away": "EGY",
+      "most_likely_score": "1-1",
+      "frequency": 11.6
+    },
+    "IRNvNZL": {
+      "home": "IRN",
+      "away": "NZL",
+      "most_likely_score": "1-1",
+      "frequency": 12.5
+    },
+    "BELvIRN": {
+      "home": "BEL",
+      "away": "IRN",
+      "most_likely_score": "1-1",
+      "frequency": 12.4
+    },
+    "NZLvEGY": {
+      "home": "NZL",
+      "away": "EGY",
+      "most_likely_score": "1-1",
+      "frequency": 12.8
+    },
+    "NZLvBEL": {
+      "home": "NZL",
+      "away": "BEL",
+      "most_likely_score": "0-2",
+      "frequency": 11.4
+    },
+    "EGYvIRN": {
+      "home": "EGY",
+      "away": "IRN",
+      "most_likely_score": "1-1",
+      "frequency": 12.9
+    }
+  }
+}

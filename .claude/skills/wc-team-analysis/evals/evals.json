@@ -1,0 +1,20 @@
+{
+  "skill_name": "wc-team-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just watched AFCON 2025 Senegal vs Morocco. Morocco didn't look strong at all. Now compare their 2022 WC squad vs 2026 — coach change? key player ages? Is our ELO of 1760 and form of 1.08 still fair?",
+      "expected_output": "Structured 5-section analysis covering coach change (Regragui out, Ouahbi in 3 months before WC), key losses (Ziyech, En-Nesyri, Boufal), aging GK Bounou (34), and a verdict that 1.08 form is too high — recommends a lower value with reasoning."
+    },
+    {
+      "id": 2,
+      "prompt": "Can Norway really challenge France in Group I? Haaland is obviously great but is the rest of the squad good enough? Check the coach, squad depth, and recent form.",
+      "expected_output": "Analysis covering Haaland's dominance, squad depth beyond him, coach situation, 3-1 Sweden friendly, and an honest verdict on whether Norway's form boost (1.10) is warranted vs France's PSG-powered squad."
+    },
+    {
+      "id": 3,
+      "prompt": "Japan lost Mitoma and Minamino. How much does that actually hurt them? Who replaces them, and is our current form adjustment of 0.86 too harsh or not harsh enough?",
+      "expected_output": "Analysis of Mitoma and Minamino's roles in Japan's attack, who fills those positions, coach Moriyasu's system, recent qualifying form, and a verdict on whether 0.86 is calibrated correctly."
+    }
+  ]
+}

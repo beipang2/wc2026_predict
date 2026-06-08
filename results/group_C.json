@@ -1,0 +1,84 @@
+{
+  "group": "C",
+  "simulations": 10000,
+  "teams": {
+    "BRA": {
+      "name": "Brazil",
+      "p_1st": 42.9,
+      "p_2nd": 30.9,
+      "p_3rd": 18.0,
+      "p_4th": 8.2,
+      "p_advance": 73.9,
+      "xpts": 5.45,
+      "xgd": 2.04
+    },
+    "MAR": {
+      "name": "Morocco",
+      "p_1st": 37.4,
+      "p_2nd": 32.5,
+      "p_3rd": 20.9,
+      "p_4th": 9.2,
+      "p_advance": 69.9,
+      "xpts": 5.22,
+      "xgd": 1.61
+    },
+    "SCO": {
+      "name": "Scotland",
+      "p_1st": 14.2,
+      "p_2nd": 24.3,
+      "p_3rd": 34.2,
+      "p_4th": 27.3,
+      "p_advance": 38.5,
+      "xpts": 3.6,
+      "xgd": -0.8
+    },
+    "HAI": {
+      "name": "Haiti",
+      "p_1st": 5.5,
+      "p_2nd": 12.3,
+      "p_3rd": 26.9,
+      "p_4th": 55.3,
+      "p_advance": 17.8,
+      "xpts": 2.29,
+      "xgd": -2.85
+    }
+  },
+  "fixtures": {
+    "BRAvMAR": {
+      "home": "BRA",
+      "away": "MAR",
+      "most_likely_score": "1-1",
+      "frequency": 12.4
+    },
+    "HAIvSCO": {
+      "home": "HAI",
+      "away": "SCO",
+      "most_likely_score": "1-1",
+      "frequency": 12.7
+    },
+    "SCOvMAR": {
+      "home": "SCO",
+      "away": "MAR",
+      "most_likely_score": "1-1",
+      "frequency": 11.7
+    },
+    "BRAvHAI": {
+      "home": "BRA",
+      "away": "HAI",
+      "most_likely_score": "2-0",
+      "frequency": 12.3
+    },
+    "MARvHAI": {
+      "home": "MAR",
+      "away": "HAI",
+      "most_likely_score": "2-0",
+      "frequency": 12.0
+    },
+    "SCOvBRA": {
+      "home": "SCO",
+      "away": "BRA",
+      "most_likely_score": "1-1",
+      "frequency": 11.6
+    }
+  }
+}

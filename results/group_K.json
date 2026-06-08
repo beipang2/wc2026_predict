@@ -1,0 +1,84 @@
+{
+  "group": "K",
+  "simulations": 10000,
+  "teams": {
+    "POR": {
+      "name": "Portugal",
+      "p_1st": 49.3,
+      "p_2nd": 31.2,
+      "p_3rd": 14.3,
+      "p_4th": 5.2,
+      "p_advance": 80.5,
+      "xpts": 5.86,
+      "xgd": 2.69
+    },
+    "COL": {
+      "name": "Colombia",
+      "p_1st": 37.5,
+      "p_2nd": 36.8,
+      "p_3rd": 18.1,
+      "p_4th": 7.6,
+      "p_advance": 74.2,
+      "xpts": 5.37,
+      "xgd": 1.87
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "p_1st": 5.1,
+      "p_2nd": 14.0,
+      "p_3rd": 31.2,
+      "p_4th": 49.7,
+      "p_advance": 19.1,
+      "xpts": 2.43,
+      "xgd": -2.68
+    },
+    "COD": {
+      "name": "DR Congo",
+      "p_1st": 8.2,
+      "p_2nd": 18.1,
+      "p_3rd": 36.4,
+      "p_4th": 37.4,
+      "p_advance": 26.2,
+      "xpts": 2.96,
+      "xgd": -1.88
+    }
+  },
+  "fixtures": {
+    "PORvCOD": {
+      "home": "POR",
+      "away": "COD",
+      "most_likely_score": "2-0",
+      "frequency": 10.9
+    },
+    "UZBvCOL": {
+      "home": "UZB",
+      "away": "COL",
+      "most_likely_score": "0-2",
+      "frequency": 12.5
+    },
+    "PORvUZB": {
+      "home": "POR",
+      "away": "UZB",
+      "most_likely_score": "2-0",
+      "frequency": 12.3
+    },
+    "COLvCOD": {
+      "home": "COL",
+      "away": "COD",
+      "most_likely_score": "2-0",
+      "frequency": 11.5
+    },
+    "COLvPOR": {
+      "home": "COL",
+      "away": "POR",
+      "most_likely_score": "1-1",
+      "frequency": 12.1
+    },
+    "CODvUZB": {
+      "home": "COD",
+      "away": "UZB",
+      "most_likely_score": "1-1",
+      "frequency": 12.8
+    }
+  }
+}

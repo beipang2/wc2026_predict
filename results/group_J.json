@@ -1,0 +1,84 @@
+{
+  "group": "J",
+  "simulations": 10000,
+  "teams": {
+    "ARG": {
+      "name": "Argentina",
+      "p_1st": 50.6,
+      "p_2nd": 28.3,
+      "p_3rd": 14.4,
+      "p_4th": 6.7,
+      "p_advance": 78.9,
+      "xpts": 5.78,
+      "xgd": 2.52
+    },
+    "AUT": {
+      "name": "Austria",
+      "p_1st": 27.1,
+      "p_2nd": 32.6,
+      "p_3rd": 24.6,
+      "p_4th": 15.8,
+      "p_advance": 59.6,
+      "xpts": 4.58,
+      "xgd": 0.65
+    },
+    "ALG": {
+      "name": "Algeria",
+      "p_1st": 15.2,
+      "p_2nd": 23.2,
+      "p_3rd": 32.3,
+      "p_4th": 29.2,
+      "p_advance": 38.5,
+      "xpts": 3.57,
+      "xgd": -0.86
+    },
+    "JOR": {
+      "name": "Jordan",
+      "p_1st": 7.1,
+      "p_2nd": 15.9,
+      "p_3rd": 28.7,
+      "p_4th": 48.3,
+      "p_advance": 23.0,
+      "xpts": 2.62,
+      "xgd": -2.3
+    }
+  },
+  "fixtures": {
+    "ARGvALG": {
+      "home": "ARG",
+      "away": "ALG",
+      "most_likely_score": "1-1",
+      "frequency": 11.1
+    },
+    "AUTvJOR": {
+      "home": "AUT",
+      "away": "JOR",
+      "most_likely_score": "1-1",
+      "frequency": 11.7
+    },
+    "ARGvAUT": {
+      "home": "ARG",
+      "away": "AUT",
+      "most_likely_score": "1-1",
+      "frequency": 11.5
+    },
+    "JORvALG": {
+      "home": "JOR",
+      "away": "ALG",
+      "most_likely_score": "1-1",
+      "frequency": 12.8
+    },
+    "ALGvAUT": {
+      "home": "ALG",
+      "away": "AUT",
+      "most_likely_score": "1-1",
+      "frequency": 11.6
+    },
+    "JORvARG": {
+      "home": "JOR",
+      "away": "ARG",
+      "most_likely_score": "0-2",
+      "frequency": 12.0
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "group": "F",
+  "simulations": 10000,
+  "teams": {
+    "NED": {
+      "name": "Netherlands",
+      "p_1st": 37.7,
+      "p_2nd": 26.2,
+      "p_3rd": 20.6,
+      "p_4th": 15.4,
+      "p_advance": 64.0,
+      "xpts": 4.91,
+      "xgd": 1.19
+    },
+    "JPN": {
+      "name": "Japan",
+      "p_1st": 22.8,
+      "p_2nd": 25.7,
+      "p_3rd": 25.5,
+      "p_4th": 26.0,
+      "p_advance": 48.5,
+      "xpts": 3.99,
+      "xgd": -0.2
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "p_1st": 17.7,
+      "p_2nd": 22.7,
+      "p_3rd": 27.0,
+      "p_4th": 32.6,
+      "p_advance": 40.4,
+      "xpts": 3.62,
+      "xgd": -0.73
+    },
+    "SWE": {
+      "name": "Sweden",
+      "p_1st": 21.8,
+      "p_2nd": 25.3,
+      "p_3rd": 26.9,
+      "p_4th": 26.0,
+      "p_advance": 47.1,
+      "xpts": 3.95,
+      "xgd": -0.26
+    }
+  },
+  "fixtures": {
+    "NEDvJPN": {
+      "home": "NED",
+      "away": "JPN",
+      "most_likely_score": "1-1",
+      "frequency": 12.0
+    },
+    "SWEvTUN": {
+      "home": "SWE",
+      "away": "TUN",
+      "most_likely_score": "1-1",
+      "frequency": 12.5
+    },
+    "NEDvSWE": {
+      "home": "NED",
+      "away": "SWE",
+      "most_likely_score": "1-1",
+      "frequency": 12.0
+    },
+    "TUNvJPN": {
+      "home": "TUN",
+      "away": "JPN",
+      "most_likely_score": "1-1",
+      "frequency": 12.0
+    },
+    "TUNvNED": {
+      "home": "TUN",
+      "away": "NED",
+      "most_likely_score": "1-1",
+      "frequency": 11.6
+    },
+    "JPNvSWE": {
+      "home": "JPN",
+      "away": "SWE",
+      "most_likely_score": "1-1",
+      "frequency": 12.0
+    }
+  }
+}

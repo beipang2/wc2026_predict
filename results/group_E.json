@@ -1,0 +1,84 @@
+{
+  "group": "E",
+  "simulations": 10000,
+  "teams": {
+    "GER": {
+      "name": "Germany",
+      "p_1st": 61.0,
+      "p_2nd": 25.8,
+      "p_3rd": 11.2,
+      "p_4th": 2.1,
+      "p_advance": 86.8,
+      "xpts": 6.51,
+      "xgd": 3.96
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "p_1st": 22.7,
+      "p_2nd": 37.3,
+      "p_3rd": 30.8,
+      "p_4th": 9.2,
+      "p_advance": 60.0,
+      "xpts": 4.72,
+      "xgd": 0.86
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "p_1st": 15.2,
+      "p_2nd": 31.6,
+      "p_3rd": 39.8,
+      "p_4th": 13.4,
+      "p_advance": 46.8,
+      "xpts": 4.15,
+      "xgd": -0.02
+    },
+    "CUW": {
+      "name": "Curacao",
+      "p_1st": 1.1,
+      "p_2nd": 5.3,
+      "p_3rd": 18.2,
+      "p_4th": 75.3,
+      "p_advance": 6.4,
+      "xpts": 1.38,
+      "xgd": -4.8
+    }
+  },
+  "fixtures": {
+    "GERvCUW": {
+      "home": "GER",
+      "away": "CUW",
+      "most_likely_score": "2-0",
+      "frequency": 14.0
+    },
+    "CIVvECU": {
+      "home": "CIV",
+      "away": "ECU",
+      "most_likely_score": "1-1",
+      "frequency": 12.0
+    },
+    "GERvCIV": {
+      "home": "GER",
+      "away": "CIV",
+      "most_likely_score": "1-1",
+      "frequency": 10.6
+    },
+    "ECUvCUW": {
+      "home": "ECU",
+      "away": "CUW",
+      "most_likely_score": "2-0",
+      "frequency": 13.5
+    },
+    "CUWvCIV": {
+      "home": "CUW",
+      "away": "CIV",
+      "most_likely_score": "0-1",
+      "frequency": 13.0
+    },
+    "ECUvGER": {
+      "home": "ECU",
+      "away": "GER",
+      "most_likely_score": "1-1",
+      "frequency": 10.8
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "group": "L",
+  "simulations": 10000,
+  "teams": {
+    "ENG": {
+      "name": "England",
+      "p_1st": 50.5,
+      "p_2nd": 29.8,
+      "p_3rd": 14.2,
+      "p_4th": 5.5,
+      "p_advance": 80.3,
+      "xpts": 5.89,
+      "xgd": 2.75
+    },
+    "CRO": {
+      "name": "Croatia",
+      "p_1st": 34.9,
+      "p_2nd": 36.7,
+      "p_3rd": 19.3,
+      "p_4th": 9.0,
+      "p_advance": 71.6,
+      "xpts": 5.22,
+      "xgd": 1.65
+    },
+    "GHA": {
+      "name": "Ghana",
+      "p_1st": 5.1,
+      "p_2nd": 12.6,
+      "p_3rd": 29.2,
+      "p_4th": 53.0,
+      "p_advance": 17.7,
+      "xpts": 2.34,
+      "xgd": -2.91
+    },
+    "PAN": {
+      "name": "Panama",
+      "p_1st": 9.5,
+      "p_2nd": 20.8,
+      "p_3rd": 37.2,
+      "p_4th": 32.4,
+      "p_advance": 30.3,
+      "xpts": 3.18,
+      "xgd": -1.49
+    }
+  },
+  "fixtures": {
+    "ENGvCRO": {
+      "home": "ENG",
+      "away": "CRO",
+      "most_likely_score": "1-1",
+      "frequency": 12.2
+    },
+    "GHAvPAN": {
+      "home": "GHA",
+      "away": "PAN",
+      "most_likely_score": "1-1",
+      "frequency": 12.8
+    },
+    "ENGvGHA": {
+      "home": "ENG",
+      "away": "GHA",
+      "most_likely_score": "2-0",
+      "frequency": 11.6
+    },
+    "PANvCRO": {
+      "home": "PAN",
+      "away": "CRO",
+      "most_likely_score": "1-1",
+      "frequency": 11.0
+    },
+    "PANvENG": {
+      "home": "PAN",
+      "away": "ENG",
+      "most_likely_score": "0-2",
+      "frequency": 11.4
+    },
+    "CROvGHA": {
+      "home": "CRO",
+      "away": "GHA",
+      "most_likely_score": "2-0",
+      "frequency": 10.7
+    }
+  }
+}
