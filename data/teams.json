@@ -13,8 +13,7 @@
     "fifa_rank": 25,
     "elo": 1720,
     "notes": "Unbeaten AFC qualifying (6W 4D). Son 33 at LAFC (final WC, physical decline but tactical influence). Lee Kang-in PSG prime. Kim Min-jae (Bayern) elite CB. Hwang In-beom ankle concern. 5-0 Trinidad, 1-0 El Salvador warm-ups.",
-    "form": 1.0,
-    "style": 0.06
+    "form": 1.0
   },
   "CZE": {
     "name": "Czechia",
@@ -87,9 +86,7 @@
     "confederation": "UEFA",
     "fifa_rank": 39,
     "elo": 1658,
-    "notes": "First WC since 1998. McTominay (Napoli, Serie A winner) peak form. Robertson (92 caps) captain fit. McGinn + Tierney + Ferguson + Christie all fit after year-long setbacks. Beat Denmark 4-2 (qualifier), Curacao 4-1, Bolivia 4-0 (weak opposition). Lost 0-1 Japan, 0-1 Ivory Coast. Gilmour OUT (knee, replaced by Tyler Fletcher). Hanley (CB) knee injury - in squad but risk. Craig Gordon 43 (shoulder, not played since Jan) - backup GK.",
-    "form": 1.03,
-    "style": 0.05
+    "notes": "First WC since 1998. McTominay (Napoli, Serie A winner) peak form. Robertson (92 caps) captain fit. McGinn + Tierney + Ferguson + Christie all fit after year-long setbacks. Beat Denmark 4-2 (qualifier), Curacao 4-1. Lost 0-1 Japan, 0-1 Ivory Coast. Gilmour OUT (knee, replaced by Tyler Fletcher). Hanley (CB) knee injury - in squad but risk. Craig Gordon 43 (shoulder, not played since Jan) - backup GK."
   },
   "HAI": {
     "name": "Haiti",
@@ -129,8 +126,7 @@
     "fifa_rank": 26,
     "elo": 1685,
     "notes": "EURO 2024 QF. Guler (21, Real Madrid) fit after hamstring Apr - confirmed squad. Yildiz (21, Juventus, 9G/7A) fit. Calhanoglu (Inter) soleus strain Apr/May - recovered, carries mid-tournament risk. Kad\u0131oglu (Brighton) LB. 24yr WC absence = low historic ELO baseline. Warm-ups: beat USA 2-1, N.Macedonia 4-0, Venezuela 2-1 - 3W 8GF 2GA. Montella confirmed coach.",
-    "form": 1.11,
-    "style": 0.06
+    "form": 1.11
   },
   "GER": {
     "name": "Germany",
@@ -138,8 +134,7 @@
     "fifa_rank": 12,
     "elo": 1905,
     "notes": "Nagelsmann 2.5yr. Wirtz (Liverpool) peak - 2G+2A vs Switzerland. Musiala fit - recovered from fibula fracture (Club WC), confirmed squad. Gnabry out (adductor). ter Stegen out (thigh). Neuer 40 confirmed No.1, missed warm-ups (calf) but expected fit. Warm-ups: 4-0 Finland, 2-1 USA. Dominant group-stage picture.",
-    "form": 1.08,
-    "style": 0.05
+    "form": 1.08
   },
   "ECU": {
     "name": "Ecuador",
@@ -147,8 +142,7 @@
     "fifa_rank": 44,
     "elo": 1695,
     "notes": "5 goals conceded in 18 CONMEBOL qualifiers (13 clean sheets - historic). Hincapie (Arsenal, 24) + Pacho (PSG, 24) CB pair world-class. Caicedo (Chelsea) elite CDM. Beccacece 22mo system. 19-game unbeaten run. Valencia 36 declining but fit. Paez (19, Chelsea) wildcard.",
-    "form": 1.1,
-    "style": 0.03
+    "form": 1.1
   },
   "CIV": {
     "name": "Ivory Coast",
@@ -180,8 +174,7 @@
     "fifa_rank": 17,
     "elo": 1755,
     "notes": "Beat England 1-0 at Wembley Mar 2026. 1 loss in 17 matches. Mitoma OUT (hamstring surgery, Brighton confirmed). Minamino OUT (ACL Dec). Kubo (Copa del Rey winner, sharp - 1G/2A final 5 Liga games) leads attack. Endo (ankle) recovered, in squad. Tomiyasu recalled from Ajax. Beat Iceland 1-0 Jun. Moriyasu 8yr continuity. AFC qualifying +27 GD.",
-    "form": 1.1,
-    "style": 0.05
+    "form": 1.1
   },
   "TUN": {
     "name": "Tunisia",
@@ -197,8 +190,7 @@
     "fifa_rank": 21,
     "elo": 1700,
     "notes": "EMERGENCY COACH: Potter (Oct 2025, 8mo). Finished BOTTOM of qualifying group (2pts, 0W). Only 2 competitive wins under Potter (both playoffs via Gyokeres). Kulusevski out all season. Bergvall (20) + Ayari (21) midfield inexperienced. Lost 3-1 Norway, drew 2-2 Greece June warm-ups. Gyokeres + Isak attacking ceiling is real.",
-    "form": 0.88,
-    "style": 0.08
+    "form": 0.88
   },
   "BEL": {
     "name": "Belgium",
@@ -214,8 +206,7 @@
     "fifa_rank": 20,
     "elo": 1640,
     "notes": "Azmoun AXED for political reasons (Instagram post deemed disloyal) - direct attacking downgrade not in ELO. Taremi 33 (Olympiacos) carries attack. Solid AFC qualifying W11D4L1. Ghalenoei 3yr continuity. 65% domestic squad. Visa delays resolved. Beat Gambia 3-1 warm-up.",
-    "form": 0.97,
-    "style": -0.05
+    "form": 0.97
   },
   "EGY": {
     "name": "Egypt",
@@ -247,8 +238,7 @@
     "fifa_rank": 9,
     "elo": 1810,
     "notes": "Copa America 2024 SF. Bielsa pressing system. Suarez gone. Nunez (Al-Hilal) full year without elite competition. Muslera 37 recalled from retirement as GK. 0-0 Algeria, 1-1 England Mar 2026 - attack struggles vs organized sides. Valverde (25, Real Madrid) + Araujo/Gimenez CB elite.",
-    "form": 0.95,
-    "style": 0.03
+    "form": 0.95
   },
   "KSA": {
     "name": "Saudi Arabia",
@@ -280,8 +270,7 @@
     "fifa_rank": 16,
     "elo": 1750,
     "notes": "Beat England 3-1 (Mar 2025, Sarr MOTM) - primary quality benchmark. AFCON title stripped by CAF (walkoff protest) - on-pitch performances legitimate. Jackson (Bayern) + Sarr (Palace, FA Cup winner) peak. Mane 34 final tournament. Koulibaly 34, Gueye 36 aging. Thiaw (internal promotion) maintained system continuity.",
-    "form": 1.05,
-    "style": 0.05
+    "form": 1.05
   },
   "NOR": {
     "name": "Norway",
@@ -289,8 +278,7 @@
     "fifa_rank": 22,
     "elo": 1825,
     "notes": "Haaland (25) best striker at tournament - 16 goals in 8 qualifiers. Odegaard FIT - missed Mar friendlies (ankle) but scored 75' equaliser vs Morocco (Jun 7, 1-1), looked sharp. Norway unbeaten in final 2 warm-ups. Beat Italy 3-0 + 4-1 in qualifying. Solbakken 5yr continuity. Full ceiling: Haaland + Odegaard both available.",
-    "form": 1.05,
-    "style": 0.1
+    "form": 1.05
   },
   "IRQ": {
     "name": "Iraq",
@@ -314,8 +302,7 @@
     "fifa_rank": 27,
     "elo": 1712,
     "notes": "Rangnick 4yr, EURO 2024 R16. Alaba ACL Dec 2023 + missed Club WC 2025 (meniscus) - minimal competitive minutes since. Sabitzer (Dortmund) + Baumgartner (Leipzig) prime. Lost 0-2 Serbia NL playoff. Beat Tunisia 1-0 only June warm-up. Wimmer (Wolfsburg, 23) emerging.",
-    "form": 0.98,
-    "style": 0.05
+    "form": 0.98
   },
   "ALG": {
     "name": "Algeria",
@@ -339,8 +326,7 @@
     "fifa_rank": 8,
     "elo": 1890,
     "notes": "NL 2025 winners. Qualifying +28 GD, 9-1 Armenia. Joao Neves (22, PSG, UCL winner) + Vitinha elite midfield. Bruno Fernandes POTT. Ronaldo 41 (squad, started Chile, half-time sub). Leao red card Chile friendly = DOES NOT CARRY OVER to WC (FIFA friendly rules) - available for opener. Diogo Jota passed away (car accident) - squad tribute. Joao Felix + Pedro Neto fit. Won 2-1 Chile (10 men). Martinez 3yr continuity.",
-    "form": 1.13,
-    "style": 0.04
+    "form": 1.13
   },
   "COL": {
     "name": "Colombia",
@@ -348,8 +334,7 @@
     "fifa_rank": 11,
     "elo": 1800,
     "notes": "Copa America 2024 final (28 games unbeaten, beat Brazil + Uruguay en route). Luis Diaz (Bayern, Bundesliga winner) peak form. James Rodriguez 34 creative anchor. Arias/Rios supporting cast. Ospina 37 GK concern. 3rd CONMEBOL qualifying. Lorenzo 4yr continuity. Beat Jordan 2-0 warm-up.",
-    "form": 1.08,
-    "style": 0.03
+    "form": 1.08
   },
   "UZB": {
     "name": "Uzbekistan",
