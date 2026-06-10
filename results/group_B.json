@@ -4,43 +4,43 @@
   "teams": {
     "CAN": {
       "name": "Canada",
-      "p_1st": 43.0,
-      "p_2nd": 32.4,
-      "p_3rd": 17.7,
-      "p_4th": 7.0,
-      "p_advance": 75.3,
-      "xpts": 5.53,
-      "xgd": 2.25
+      "p_1st": 23.4,
+      "p_2nd": 32.1,
+      "p_3rd": 26.4,
+      "p_4th": 18.2,
+      "p_advance": 55.4,
+      "xpts": 4.33,
+      "xgd": 0.32
     },
     "SUI": {
       "name": "Switzerland",
-      "p_1st": 41.3,
-      "p_2nd": 33.6,
-      "p_3rd": 17.5,
-      "p_4th": 7.6,
-      "p_advance": 74.9,
-      "xpts": 5.49,
-      "xgd": 2.09
+      "p_1st": 54.5,
+      "p_2nd": 25.5,
+      "p_3rd": 13.6,
+      "p_4th": 6.3,
+      "p_advance": 80.0,
+      "xpts": 5.9,
+      "xgd": 2.69
     },
     "QAT": {
       "name": "Qatar",
-      "p_1st": 4.6,
-      "p_2nd": 12.0,
-      "p_3rd": 29.0,
-      "p_4th": 54.4,
-      "p_advance": 16.5,
-      "xpts": 2.27,
-      "xgd": -3.04
+      "p_1st": 7.7,
+      "p_2nd": 17.6,
+      "p_3rd": 28.2,
+      "p_4th": 46.5,
+      "p_advance": 25.3,
+      "xpts": 2.72,
+      "xgd": -2.17
     },
     "BIH": {
       "name": "Bosnia & Herzegovina",
-      "p_1st": 11.2,
-      "p_2nd": 22.1,
-      "p_3rd": 35.8,
-      "p_4th": 31.0,
-      "p_advance": 33.3,
-      "xpts": 3.31,
-      "xgd": -1.3
+      "p_1st": 14.4,
+      "p_2nd": 24.9,
+      "p_3rd": 31.7,
+      "p_4th": 29.0,
+      "p_advance": 39.2,
+      "xpts": 3.58,
+      "xgd": -0.84
     }
   },
   "fixtures": {
@@ -48,37 +48,37 @@
       "home": "CAN",
       "away": "BIH",
       "most_likely_score": "1-1",
-      "frequency": 10.4
+      "frequency": 12.4
     },
     "QATvSUI": {
       "home": "QAT",
       "away": "SUI",
       "most_likely_score": "0-2",
-      "frequency": 11.9
+      "frequency": 11.7
     },
     "SUIvBIH": {
       "home": "SUI",
       "away": "BIH",
       "most_likely_score": "1-1",
-      "frequency": 11.4
+      "frequency": 11.2
     },
     "CANvQAT": {
       "home": "CAN",
       "away": "QAT",
-      "most_likely_score": "2-0",
-      "frequency": 11.8
+      "most_likely_score": "1-1",
+      "frequency": 11.5
     },
     "SUIvCAN": {
       "home": "SUI",
       "away": "CAN",
       "most_likely_score": "1-1",
-      "frequency": 12.8
+      "frequency": 11.9
     },
     "BIHvQAT": {
       "home": "BIH",
       "away": "QAT",
       "most_likely_score": "1-1",
-      "frequency": 12.6
+      "frequency": 12.8
     }
   }
 }

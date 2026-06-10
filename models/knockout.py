@@ -38,7 +38,6 @@ def resolve_bracket(gs: dict, wc: dict) -> dict[str, str]:
         slot_map[f"1{gid}"] = ranked[0][0]
         slot_map[f"2{gid}"] = ranked[1][0]
 
-    # Wildcards: best WC candidate per group, excluding likely top-2 finishers
     top2 = set()
     for gid, data in gs.items():
         ranked = sorted(data["teams"].items(), key=lambda x: x[1]["p_advance"], reverse=True)

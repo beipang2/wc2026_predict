@@ -6,9 +6,12 @@ description: >
   strength for the 2026 World Cup — especially questions like "are they as good as their
   ELO suggests?", "how do they compare to their last World Cup squad?", "is the coach
   new?", "who are the key players and how old are they?", or "should we adjust this
-  team's ratings?". Also trigger when the user wants to debate a specific team matchup
-  (e.g. "can Morocco really go head to head with Brazil?") or when they've just watched
-  a match and want to cross-check it against the model's assumptions.
+  team's ratings?". Also trigger when the user asks about all teams in a group: "analyze
+  each team in Group B", "preview Group A", "tell me about the teams in Group C" — treat
+  this as running the same per-team analysis on each team in the group, one after another.
+  Also trigger when the user wants to debate a specific team matchup (e.g. "can Morocco
+  really go head to head with Brazil?") or when they've just watched a match and want to
+  cross-check it against the model's assumptions.
 ---
 
 # WC Team Analysis Skill
@@ -18,73 +21,62 @@ team's World Cup 2026 readiness. The user is using this to decide whether to adj
 team's ratings in a Monte Carlo simulation — so facts matter more than hype, and honest
 assessments of weakness are more valuable than cheerleading.
 
+If the user asks about all teams in a group, first confirm which four teams are in that
+group (one quick web search), then apply this same analysis to each team in turn. No
+group comparison table, no advancement odds — just four consecutive team briefs.
+
 ## What to research
 
 Use web search to find current, specific information. Don't rely on training data for
 squad details, ages, or coaching staff — these change constantly and stale data produces
 wrong conclusions.
 
+**Only use results from 2024 onwards.** Earlier history is largely irrelevant — squads
+turn over, coaches change, form shifts. Pre-2024 data should only be referenced to flag
+aging players still in the squad.
+
 Search for:
-- Current 2026 WC squad announcement
-- Previous WC squad (2022 or last tournament appearance)
-- Coach name, when appointed, and whether they replaced someone recently
-- Key player ages (especially stars who were central at the last WC)
-- Notable absences — injuries, retirements, dropped
-- World Cup 2026 qualifying campaign: record, style, who they struggled against
-- Recent tournament results (last AFCON / Euros / Copa America / Nations League)
-- Pre-tournament friendly results (June 2026)
+- Current 2026 WC squad announcement and notable absences (injuries, dropped)
+- Coach name, when appointed, system/style
+- Key player ages for current squad starters
+- 2024–2026 competitive results: Nations League, AFCON, Euros, Copa America, qualifying
+- June 2026 pre-tournament friendly results with scores
 
 ## Output structure
 
-Always produce exactly these five sections in this order. Be concise — one tight
+Always produce exactly these four sections in this order. Be concise — one tight
 paragraph or a short table per section. No padding.
 
-### 1. Coach
-- Who is the current coach and when were they appointed?
-- Same coach as their last WC, or a change?
-- If changed recently (< 6 months before tournament): flag this as a red flag.
-- What system/style do they play?
+### 1. Coach & System
+- Who is the current coach, when appointed, what system/style?
+- If appointed < 6 months before tournament: flag as red flag.
 
-### 2. Squad vs Last WC
-A short comparison across three buckets:
-- **Gone since last WC**: key players no longer in the squad (retired, dropped, injured out)
-- **Still here**: key returnees and their current ages
-- **New faces**: notable additions who weren't at the last WC
-
-Focus on impact players — the ones who actually shaped results — not squad fillers.
-
-### 3. Key Player Ages
+### 2. Key Players (2026 squad)
 For the 5-6 most important players, list: name, position, club, age, and a one-line
-assessment (peaking / prime / aging / declining). This tells the user whether the
-team's ELO — which reflects past results — still matches their current personnel ceiling.
+assessment (peaking / prime / aging / declining). Flag any key absences due to injury
+or form. This tells the user whether the ELO — which reflects past results — still
+matches their current personnel ceiling.
 
-### 4. Form & Context
-Four data points, in this order:
+### 3. Form & Results (2024–2026 only)
+Three data points, in this order:
 
-**Qualifying campaign**: How did they get here? Dominant, scraped through, playoffs?
-Who did they struggle against? A team that barely survived CAF/CONCACAF qualifying
-is a different beast from one that went unbeaten. Note goal difference and standout
-results.
+**2024–2025 competitive record**: Nations League / confederation tournament / qualifying.
+How dominant or shaky? Who did they struggle against? Note standout results and GD.
 
-**Last confederation tournament**: AFCON / Euros / Copa America / Nations League —
-result, style, and any honest red flags (e.g. knocked out early despite good squad,
-relied on one player, defensive frailty).
+**2026 qualifying stretch + pre-tournament friendlies**: Final qualifying results and
+all June 2026 friendly scores. What did these reveal about readiness?
 
-**Pre-tournament friendlies (June 2026)**: Scores and what they revealed about
-the starting XI, pressing intensity, and set-piece threat.
+**Injury/availability concerns**: Who is doubtful or confirmed out for the tournament?
 
+### 4. Verdict: Is the Rating Stale or Fair?
+Make a clear call:
 
-### 5. Verdict: Is the ELO/Rating Stale or Fair?
-Make a clear call — this is the most important section:
-
-- **Overrated**: explain specifically why (e.g. "2022 was their peak, three key attackers
-  gone, new coach 3 months in — ELO hasn't caught up yet")
+- **Overrated**: explain specifically why
 - **Fairly rated**: explain why the rating holds
-- **Underrated**: explain why they're stronger than the ELO suggests
+- **Underrated**: explain why they're stronger than the rating suggests
 
-Give a concrete steer on the form multiplier used in the simulation (range 0.80–1.20).
-For example: "form should be around 0.90–0.93, not 1.08 — here's why." The user needs
-a number they can act on, not a hedge.
+Give a concrete steer on the form multiplier (range 0.80–1.20) with a specific
+recommended value the user can act on. No hedging.
 
 ## Style rules
 - Lead with facts, not adjectives

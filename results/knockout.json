@@ -1,260 +1,260 @@
 {
-  "simulations": 10000,
+  "simulations": 50000,
   "teams": {
-    "URU": {
-      "name": "Uruguay",
-      "p_r32": 40.1,
-      "p_r16": 25.2,
-      "p_qf": 12.1,
-      "p_sf": 6.1,
-      "p_final": 2.6
+    "BEL": {
+      "name": "Belgium",
+      "p_r32": 81.4,
+      "p_r16": 53.4,
+      "p_qf": 27.4,
+      "p_sf": 13.5,
+      "p_final": 6.5
     },
-    "SCO": {
-      "name": "Scotland",
-      "p_r32": 23.0,
-      "p_r16": 6.6,
-      "p_qf": 2.7,
-      "p_sf": 1.0,
-      "p_final": 0.3
-    },
-    "CAN": {
-      "name": "Canada",
-      "p_r32": 48.2,
-      "p_r16": 19.6,
-      "p_qf": 5.5,
-      "p_sf": 2.2,
+    "MEX": {
+      "name": "Mexico",
+      "p_r32": 48.7,
+      "p_r16": 15.7,
+      "p_qf": 6.3,
+      "p_sf": 2.3,
       "p_final": 0.8
     },
-    "NED": {
-      "name": "Netherlands",
-      "p_r32": 47.5,
-      "p_r16": 27.9,
-      "p_qf": 10.1,
-      "p_sf": 4.8,
-      "p_final": 2.1
+    "JPN": {
+      "name": "Japan",
+      "p_r32": 64.7,
+      "p_r16": 41.4,
+      "p_qf": 16.5,
+      "p_sf": 7.7,
+      "p_final": 3.2
     },
-    "TUR": {
-      "name": "Turkey",
-      "p_r32": 65.9,
-      "p_r16": 32.5,
-      "p_qf": 13.0,
-      "p_sf": 4.5,
-      "p_final": 1.8
-    },
-    "ECU": {
-      "name": "Ecuador",
-      "p_r32": 38.9,
-      "p_r16": 17.6,
-      "p_qf": 6.9,
-      "p_sf": 2.8,
-      "p_final": 1.1
-    },
-    "MAR": {
-      "name": "Morocco",
-      "p_r32": 52.5,
-      "p_r16": 32.3,
-      "p_qf": 12.3,
-      "p_sf": 6.5,
-      "p_final": 3.1
-    },
-    "ALG": {
-      "name": "Algeria",
-      "p_r32": 35.6,
-      "p_r16": 11.2,
-      "p_qf": 4.3,
-      "p_sf": 1.5,
-      "p_final": 0.7
-    },
-    "ENG": {
-      "name": "England",
-      "p_r32": 77.8,
-      "p_r16": 42.2,
-      "p_qf": 21.2,
-      "p_sf": 11.1,
-      "p_final": 5.5
-    },
-    "CPV": {
-      "name": "Cape Verde",
-      "p_r32": 19.6,
-      "p_r16": 4.9,
-      "p_qf": 1.9,
-      "p_sf": 0.7,
-      "p_final": 0.1
-    },
-    "NOR": {
-      "name": "Norway",
-      "p_r32": 59.7,
-      "p_r16": 33.5,
-      "p_qf": 19.7,
-      "p_sf": 11.0,
-      "p_final": 6.2
+    "BIH": {
+      "name": "Bosnia & Herzegovina",
+      "p_r32": 25.2,
+      "p_r16": 6.3,
+      "p_qf": 1.3,
+      "p_sf": 0.2,
+      "p_final": 0.0
     },
     "KOR": {
       "name": "South Korea",
-      "p_r32": 51.8,
-      "p_r16": 20.2,
-      "p_qf": 5.7,
-      "p_sf": 2.1,
-      "p_final": 0.7
+      "p_r32": 62.5,
+      "p_r16": 28.1,
+      "p_qf": 8.6,
+      "p_sf": 3.3,
+      "p_final": 1.0
     },
-    "ARG": {
-      "name": "Argentina",
-      "p_r32": 59.9,
-      "p_r16": 42.7,
-      "p_qf": 24.2,
-      "p_sf": 13.7,
-      "p_final": 7.2
+    "ENG": {
+      "name": "England",
+      "p_r32": 88.0,
+      "p_r16": 63.1,
+      "p_qf": 40.9,
+      "p_sf": 24.7,
+      "p_final": 14.5
     },
-    "BRA": {
-      "name": "Brazil",
-      "p_r32": 69.2,
-      "p_r16": 37.1,
-      "p_qf": 21.4,
-      "p_sf": 11.7,
-      "p_final": 6.2
+    "COL": {
+      "name": "Colombia",
+      "p_r32": 74.3,
+      "p_r16": 34.2,
+      "p_qf": 18.7,
+      "p_sf": 8.6,
+      "p_final": 3.8
     },
-    "UZB": {
-      "name": "Uzbekistan",
-      "p_r32": 22.2,
-      "p_r16": 6.2,
-      "p_qf": 1.3,
-      "p_sf": 0.4,
+    "CZE": {
+      "name": "Czechia",
+      "p_r32": 18.6,
+      "p_r16": 6.5,
+      "p_qf": 1.4,
+      "p_sf": 0.3,
       "p_final": 0.1
     },
-    "POR": {
-      "name": "Portugal",
-      "p_r32": 68.7,
-      "p_r16": 45.1,
-      "p_qf": 27.5,
-      "p_sf": 15.4,
+    "SUI": {
+      "name": "Switzerland",
+      "p_r32": 56.5,
+      "p_r16": 14.8,
+      "p_qf": 4.7,
+      "p_sf": 1.4,
+      "p_final": 0.4
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "p_r32": 17.5,
+      "p_r16": 4.7,
+      "p_qf": 1.7,
+      "p_sf": 0.5,
+      "p_final": 0.1
+    },
+    "ESP": {
+      "name": "Spain",
+      "p_r32": 74.5,
+      "p_r16": 48.9,
+      "p_qf": 31.1,
+      "p_sf": 17.3,
+      "p_final": 9.5
+    },
+    "SCO": {
+      "name": "Scotland",
+      "p_r32": 35.3,
+      "p_r16": 17.5,
+      "p_qf": 4.8,
+      "p_sf": 1.6,
+      "p_final": 0.5
+    },
+    "NED": {
+      "name": "Netherlands",
+      "p_r32": 39.0,
+      "p_r16": 15.8,
+      "p_qf": 5.9,
+      "p_sf": 2.2,
+      "p_final": 0.8
+    },
+    "FRA": {
+      "name": "France",
+      "p_r32": 82.5,
+      "p_r16": 49.1,
+      "p_qf": 35.5,
+      "p_sf": 21.8,
+      "p_final": 12.6
+    },
+    "GER": {
+      "name": "Germany",
+      "p_r32": 76.8,
+      "p_r16": 39.8,
+      "p_qf": 27.3,
+      "p_sf": 16.1,
       "p_final": 8.7
     },
     "AUT": {
       "name": "Austria",
-      "p_r32": 39.1,
-      "p_r16": 17.7,
-      "p_qf": 10.1,
-      "p_sf": 4.2,
-      "p_final": 1.6
-    },
-    "JPN": {
-      "name": "Japan",
-      "p_r32": 30.8,
-      "p_r16": 11.3,
-      "p_qf": 4.4,
-      "p_sf": 1.8,
-      "p_final": 0.6
-    },
-    "USA": {
-      "name": "United States",
-      "p_r32": 52.3,
-      "p_r16": 17.0,
-      "p_qf": 6.2,
-      "p_sf": 2.0,
-      "p_final": 0.6
-    },
-    "CZE": {
-      "name": "Czechia",
-      "p_r32": 38.7,
-      "p_r16": 18.8,
-      "p_qf": 6.6,
-      "p_sf": 2.1,
-      "p_final": 0.7
-    },
-    "SUI": {
-      "name": "Switzerland",
-      "p_r32": 64.4,
-      "p_r16": 28.8,
-      "p_qf": 14.0,
-      "p_sf": 6.3,
-      "p_final": 2.8
-    },
-    "MEX": {
-      "name": "Mexico",
-      "p_r32": 61.1,
-      "p_r16": 34.0,
-      "p_qf": 16.8,
-      "p_sf": 8.2,
-      "p_final": 4.0
-    },
-    "BEL": {
-      "name": "Belgium",
-      "p_r32": 61.3,
-      "p_r16": 36.5,
-      "p_qf": 15.7,
-      "p_sf": 6.0,
-      "p_final": 2.5
-    },
-    "COL": {
-      "name": "Colombia",
-      "p_r32": 51.8,
-      "p_r16": 25.1,
-      "p_qf": 15.0,
-      "p_sf": 6.4,
-      "p_final": 2.9
-    },
-    "SEN": {
-      "name": "Senegal",
-      "p_r32": 31.3,
-      "p_r16": 14.9,
-      "p_qf": 6.6,
-      "p_sf": 2.7,
-      "p_final": 1.1
+      "p_r32": 25.5,
+      "p_r16": 10.7,
+      "p_qf": 4.3,
+      "p_sf": 1.4,
+      "p_final": 0.5
     },
     "CIV": {
       "name": "Ivory Coast",
-      "p_r32": 40.3,
-      "p_r16": 18.1,
-      "p_qf": 8.3,
+      "p_r32": 47.5,
+      "p_r16": 24.0,
+      "p_qf": 10.6,
+      "p_sf": 4.7,
+      "p_final": 2.1
+    },
+    "USA": {
+      "name": "United States",
+      "p_r32": 60.8,
+      "p_r16": 18.9,
+      "p_qf": 6.9,
+      "p_sf": 2.3,
+      "p_final": 0.7
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "p_r32": 51.3,
+      "p_r16": 17.7,
+      "p_qf": 7.6,
+      "p_sf": 2.9,
+      "p_final": 1.0
+    },
+    "SEN": {
+      "name": "Senegal",
+      "p_r32": 31.6,
+      "p_r16": 20.6,
+      "p_qf": 9.1,
       "p_sf": 3.7,
-      "p_final": 1.5
+      "p_final": 1.6
     },
-    "ESP": {
-      "name": "Spain",
-      "p_r32": 60.9,
-      "p_r16": 34.8,
-      "p_qf": 23.1,
-      "p_sf": 11.7,
-      "p_final": 6.3
+    "TUR": {
+      "name": "Turkey",
+      "p_r32": 74.8,
+      "p_r16": 33.9,
+      "p_qf": 13.9,
+      "p_sf": 5.4,
+      "p_final": 2.0
     },
-    "GER": {
-      "name": "Germany",
-      "p_r32": 77.0,
-      "p_r16": 42.6,
-      "p_qf": 29.9,
-      "p_sf": 19.6,
-      "p_final": 12.0
+    "MAR": {
+      "name": "Morocco",
+      "p_r32": 23.2,
+      "p_r16": 6.5,
+      "p_qf": 2.8,
+      "p_sf": 0.9,
+      "p_final": 0.2
     },
-    "FRA": {
-      "name": "France",
-      "p_r32": 80.4,
-      "p_r16": 45.9,
-      "p_qf": 32.0,
-      "p_sf": 21.6,
-      "p_final": 12.8
+    "CAN": {
+      "name": "Canada",
+      "p_r32": 37.5,
+      "p_r16": 13.0,
+      "p_qf": 2.7,
+      "p_sf": 0.8,
+      "p_final": 0.2
     },
-    "IRN": {
-      "name": "Iran",
-      "p_r32": 47.7,
-      "p_r16": 15.1,
-      "p_qf": 5.2,
-      "p_sf": 1.8,
-      "p_final": 0.6
+    "EGY": {
+      "name": "Egypt",
+      "p_r32": 39.2,
+      "p_r16": 9.4,
+      "p_qf": 2.8,
+      "p_sf": 0.7,
+      "p_final": 0.2
+    },
+    "ARG": {
+      "name": "Argentina",
+      "p_r32": 70.0,
+      "p_r16": 53.6,
+      "p_qf": 32.5,
+      "p_sf": 18.4,
+      "p_final": 10.4
+    },
+    "POR": {
+      "name": "Portugal",
+      "p_r32": 68.4,
+      "p_r16": 55.0,
+      "p_qf": 33.9,
+      "p_sf": 19.5,
+      "p_final": 11.1
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "p_r32": 12.0,
+      "p_r16": 3.5,
+      "p_qf": 0.8,
+      "p_sf": 0.2,
+      "p_final": 0.0
+    },
+    "URU": {
+      "name": "Uruguay",
+      "p_r32": 30.0,
+      "p_r16": 18.0,
+      "p_qf": 7.6,
+      "p_sf": 3.0,
+      "p_final": 1.1
+    },
+    "BRA": {
+      "name": "Brazil",
+      "p_r32": 61.0,
+      "p_r16": 31.3,
+      "p_qf": 14.3,
+      "p_sf": 6.8,
+      "p_final": 3.1
+    },
+    "ALG": {
+      "name": "Algeria",
+      "p_r32": 43.5,
+      "p_r16": 9.6,
+      "p_qf": 2.6,
+      "p_sf": 0.6,
+      "p_final": 0.2
+    },
+    "NOR": {
+      "name": "Norway",
+      "p_r32": 52.5,
+      "p_r16": 28.9,
+      "p_qf": 13.6,
+      "p_sf": 6.7,
+      "p_final": 3.0
     },
     "CRO": {
       "name": "Croatia",
-      "p_r32": 48.2,
-      "p_r16": 22.4,
-      "p_qf": 13.0,
-      "p_sf": 5.8,
-      "p_final": 2.5
-    },
-    "BIH": {
-      "name": "Bosnia & Herzegovina",
-      "p_r32": 34.1,
-      "p_r16": 12.2,
-      "p_qf": 3.5,
-      "p_sf": 0.9,
+      "p_r32": 25.7,
+      "p_r16": 6.3,
+      "p_qf": 1.9,
+      "p_sf": 0.5,
       "p_final": 0.1
     }
   },
@@ -272,7 +272,7 @@
       {
         "id": 74,
         "home": "GER",
-        "away": "SCO",
+        "away": "MAR",
         "venue": "Gillette Stadium",
         "city": "Foxborough",
         "date": "2026-06-29",
@@ -280,8 +280,8 @@
       },
       {
         "id": 75,
-        "home": "NED",
-        "away": "MAR",
+        "home": "JPN",
+        "away": "SCO",
         "venue": "Estadio BBVA",
         "city": "Guadalupe",
         "date": "2026-06-29",
@@ -290,7 +290,7 @@
       {
         "id": 76,
         "home": "BRA",
-        "away": "JPN",
+        "away": "NED",
         "venue": "NRG Stadium",
         "city": "Houston",
         "date": "2026-06-29",
@@ -398,7 +398,7 @@
       {
         "id": 88,
         "home": "USA",
-        "away": "IRN",
+        "away": "EGY",
         "venue": "AT&T Stadium",
         "city": "Arlington",
         "date": "2026-07-03",
@@ -462,15 +462,15 @@
     "1B": "SUI",
     "2B": "CAN",
     "1C": "BRA",
-    "2C": "MAR",
+    "2C": "SCO",
     "1D": "TUR",
     "2D": "USA",
     "1E": "GER",
     "2E": "CIV",
-    "1F": "NED",
-    "2F": "JPN",
+    "1F": "JPN",
+    "2F": "NED",
     "1G": "BEL",
-    "2G": "IRN",
+    "2G": "EGY",
     "1H": "ESP",
     "2H": "URU",
     "1I": "FRA",
@@ -482,16 +482,16 @@
     "1L": "ENG",
     "2L": "CRO",
     "WC-E": "ECU",
-    "WC-I": "SEN",
-    "WC-C": "SCO",
     "WC-H": "CPV",
+    "WC-I": "SEN",
+    "WC-A": "CZE",
+    "WC-C": "MAR",
+    "WC-F": "TUN",
     "WC-K": "UZB",
+    "WC-G": "IRN",
+    "WC-D": "AUS",
     "WC-B": "BIH",
     "WC-J": "ALG",
-    "WC-A": "CZE",
-    "WC-G": "EGY",
-    "WC-L": "PAN",
-    "WC-F": "SWE",
-    "WC-D": "AUS"
+    "WC-L": "GHA"
   }
 }

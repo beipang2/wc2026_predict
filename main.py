@@ -130,7 +130,7 @@ def _print_knockout(results: dict) -> None:
 
 @click.command()
 @click.option("--group", default=None, help="Group ID to simulate (e.g. A)")
-@click.option("--all", "run_all", is_flag=True, help="Simulate all groups")
+@click.option("--all", "run_all", is_flag=True, help="Simulate all 12 group stage groups")
 @click.option("--wildcards", "run_wildcards", is_flag=True, help="Simulate wildcard selection (best 8 of 12 third-place teams)")
 @click.option("--knockout", "run_knockout", is_flag=True, help="Simulate the knockout bracket (R32 → Final)")
 @click.option("--simulations", default=10_000, show_default=True, help="Number of Monte Carlo runs")
@@ -139,7 +139,7 @@ def _print_knockout(results: dict) -> None:
 @click.option("--overrides", default=None, help="Path to overrides JSON (team rating overrides)")
 @click.option("--seed", default=None, type=int, help="Random seed for reproducibility")
 def cli(group, run_all, run_wildcards, run_knockout, simulations, output, no_save, overrides, seed):
-    """2026 FIFA World Cup group stage Monte Carlo simulator."""
+    """2026 FIFA World Cup Monte Carlo simulator."""
     override_data = _load_overrides(overrides)
     RESULTS_DIR.mkdir(exist_ok=True)
 
@@ -179,7 +179,7 @@ def cli(group, run_all, run_wildcards, run_knockout, simulations, output, no_sav
             out.write_text(json.dumps(results, indent=2))
             console.print(f"[green]Results written to {out}[/green]")
     else:
-        console.print("[red]Specify --group <ID>, --all, or --wildcards[/red]")
+        console.print("[red]Specify --group <ID>, --all, --wildcards, or --knockout[/red]")
         sys.exit(1)
 
 

@@ -9,6 +9,7 @@ from collections import Counter
 import numpy as np
 
 from models.match import simulate_match
+from models.knockout import simulate_ko_match
 from models.ratings import load_teams
 
 TEAMS = load_teams()
@@ -49,16 +50,39 @@ def resolve_slots() -> dict[str, str]:
 
 
 def h2h(a: str, b: str) -> tuple[float, float, float, list]:
+    """Run N KO simulations (90min + ET + pens). Returns (win_a%, draw_90min%, win_b%, top_scorelines)."""
+    from models.match import expected_goals
     ta, tb = TEAMS[a], TEAMS[b]
     fixture = {"home": a, "away": b, "city": ""}
+    lh, la = expected_goals(ta, tb, fixture)
     wa = wb = d = 0
     scores: Counter = Counter()
     for _ in range(N):
+        # 90 min
         hg, ag = simulate_match(ta, tb, fixture, RNG)
         scores[f"{hg}-{ag}"] += 1
-        if hg > ag: wa += 1
-        elif ag > hg: wb += 1
-        else: d += 1
+        if hg > ag:
+            wa += 1
+        elif ag > hg:
+            wb += 1
+        else:
+            # Extra time: 30 min scaled goals
+            et_hg = int(RNG.poisson(lh * (30 / 90)))
+            et_ag = int(RNG.poisson(la * (30 / 90)))
+            if et_hg > et_ag:
+                wa += 1
+            elif et_ag > et_hg:
+                wb += 1
+            else:
+                # Penalties: ELO-weighted, 30% regression to 50/50
+                diff = TEAMS[a]["elo"] - TEAMS[b]["elo"]
+                p_a = 1 / (1 + 10 ** (-diff / 400))
+                p_a = 0.5 + (p_a - 0.5) * 0.3
+                if RNG.random() < p_a:
+                    wa += 1
+                else:
+                    wb += 1
+                d += 1  # count penalty shootouts
     return wa / N * 100, d / N * 100, wb / N * 100, scores.most_common(5)
 
 
@@ -68,8 +92,8 @@ def pick(match_id, home: str, away: str, winners: dict) -> str:
     pa, pd, pb, top = h2h(home, away)
     print(f"\n{'─'*55}")
     print(f"  #{match_id}  {hn} vs {an}")
-    print(f"  {hn}: {pa:.1f}%  |  Draw: {pd:.1f}%  |  {an}: {pb:.1f}%")
-    print(f"  Top scorelines: " + "  ".join(f"{s}({c/N*100:.1f}%)" for s, c in top))
+    print(f"  {hn}: {pa:.1f}%  |  Drew 90min: {pd:.1f}%  |  {an}: {pb:.1f}%  (incl. ET+pens)")
+    print(f"  Top 90min scorelines: " + "  ".join(f"{s}({c/N*100:.1f}%)" for s, c in top))
     while True:
         choice = input(f"  Pick [1={hn} / 2={an}]: ").strip()
         if choice == "1":
